@@ -10,6 +10,7 @@ ModelImporter:
     2100000: phong8SG
     2100002: phong9SG
     2100004: initialShadingGroup
+    2100006: polySurface172Mat
     2300000: polySurface172
     3300000: polySurface172
     4300000: polySurface172
