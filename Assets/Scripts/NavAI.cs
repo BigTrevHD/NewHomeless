@@ -10,13 +10,14 @@ public class NavAI : MonoBehaviour
     Animator anim;
 
 
-    public Transform[] moveSpots;
+    public GameObject[] moveSpots;
     private int randomSpot;
 
 
     // Use this for initialization
     void Start()
     {
+        moveSpots = GameObject.FindGameObjectsWithTag("Destination");
         anim = GetComponent<Animator>();
         randomSpot = Random.Range(0, moveSpots.Length);
     }
@@ -24,11 +25,14 @@ public class NavAI : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.position = Vector3.MoveTowards(transform.position, moveSpots[randomSpot].position, speed * Time.deltaTime);
-        transform.LookAt(moveSpots[randomSpot]);
+        transform.position = Vector3.MoveTowards(transform.position, moveSpots[randomSpot].transform.position, speed * Time.deltaTime);
+        transform.LookAt(moveSpots[randomSpot].transform);
         anim.SetFloat("speed", 1);
 
-
+        if(transform.position == moveSpots[randomSpot].transform.position)
+        {
+            Destroy(gameObject);
+        }
     }
 }
 

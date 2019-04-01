@@ -9,6 +9,7 @@ TagManager:
   - streetlight
   - Start
   - Help
+  - Destination
   layers:
   - Default
   - TransparentFX
