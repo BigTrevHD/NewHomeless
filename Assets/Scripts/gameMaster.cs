@@ -32,6 +32,7 @@ public class gameMaster : MonoBehaviour {
     [HideInInspector]
     public float day = 1;
     public Text dayText;
+    public float timeSpeed = 0.083333f;
 
 
 
@@ -53,10 +54,14 @@ public class gameMaster : MonoBehaviour {
         if (showDiary)
         {
             Diary.SetActive(true);
+            timeSpeed = 0f;
+            Time.timeScale = 0f;
         }
         else
         {
             Diary.SetActive(false);
+            timeSpeed = 0.083333f;
+            Time.timeScale = 1f;
         }
         cashText.text = "£" + cash.ToString();
         dayText.text = "Day: " + day;

@@ -22,7 +22,7 @@ public class digitalClock : MonoBehaviour {
 	void Start () {
         // Calls the updateClock function, waits for x seconds, calls it every x seconds (12th of a day in minutes)
 
-        InvokeRepeating("UpdateClock", 0f, 0.0833333f);
+        InvokeRepeating("UpdateClock", 0f, gm.timeSpeed);
         streetlights = GameObject.FindGameObjectsWithTag("streetlight");
         
         

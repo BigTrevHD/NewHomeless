@@ -1214,6 +1214,7 @@ MonoBehaviour:
   inv: {fileID: 57292495}
   day: 1
   dayText: {fileID: 2117427219}
+  timeSpeed: 0.083333
 --- !u!4 &57292492
 Transform:
   m_ObjectHideFlags: 0
@@ -4471,7 +4472,6 @@ MonoBehaviour:
   orbitAngle: 0
   sunrisePosition: -100
   dayProgress: 0
-  daySpeed: 0.083
   gm: {fileID: 57292491}
 --- !u!4 &247800528
 Transform:

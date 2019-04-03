@@ -11,7 +11,7 @@ public class DayNightCycle : MonoBehaviour {
     [SerializeField] int sunrisePosition;
     [SerializeField] int dayProgress;
 
-    [SerializeField] float daySpeed = .1f;
+    private float daySpeed = .1f;
 
     public gameMaster gm;
 
@@ -45,20 +45,18 @@ public class DayNightCycle : MonoBehaviour {
     // Update is called once per frame
     void Update()
     {
-        
+        daySpeed = gm.timeSpeed / 1.5f;
 
-        if(gm.showDiary)
+      
         {
-            transform.Rotate(0, 0, daySpeed = 0f);            
-        }else
-        {
-            transform.Rotate(0, 0, daySpeed = 0.083f);
+            transform.Rotate(0, 0, daySpeed);
         }
-            
-        
-    
-    
        
+
+
+
+
+
     }
 
     
