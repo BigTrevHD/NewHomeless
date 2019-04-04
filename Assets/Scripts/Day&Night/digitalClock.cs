@@ -66,7 +66,7 @@ public class digitalClock : MonoBehaviour {
         if (hour >= 24)
         {
             hour = 0;
-            gm.day++;
+            gm.dayCount++;
         }
     }
 

@@ -30,7 +30,8 @@ public class gameMaster : MonoBehaviour {
 
     //time & day
     [HideInInspector]
-    public float day = 1;
+    public int dayCount = 1;
+    private string day;
     public Text dayText;
     public float timeSpeed = 0.083333333f;
     public float timeModifier = 1;
@@ -40,12 +41,12 @@ public class gameMaster : MonoBehaviour {
 
     // Use this for initialization
     void Start () {
-        cash = 25.50f;
+        
     	}
 	
 	// Update is called once per frame
 	void Update () {
-        
+        WhatDay();
 
         if (Input.GetKeyDown(KeyCode.Space))
         {
@@ -64,8 +65,8 @@ public class gameMaster : MonoBehaviour {
             timeSpeed = 0.083333333f;
             Time.timeScale = 1f * timeModifier;
         }
-        cashText.text = "£" + cash.ToString();
-        dayText.text = "Day: " + day;
+        cashText.text = "£" + cash.ToString("F2");
+        dayText.text = "" + day;
 
         
 
@@ -79,11 +80,31 @@ public class gameMaster : MonoBehaviour {
         // Player Switches Scene
 
     }
-    public void PlayerIsComingBack()
+    public void WhatDay()
     {
-        // Player comes back
-        
+        switch (dayCount)
+        {
+            case 1:
+                day = "Monday";
+                    break;
+            case 2:
+                day = "Tuesday";
+                break;
+            case 3:
+                day = "Wednesday";
+                break;
+            case 4:
+                day = "Thursday";
+                break;
+            case 5:
+                day = "Friday";
+                break;
+            default:
+                break;
+        }
+
     }
+
 
  
     }
