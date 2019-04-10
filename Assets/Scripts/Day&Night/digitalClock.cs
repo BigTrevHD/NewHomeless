@@ -11,7 +11,7 @@ public class digitalClock : MonoBehaviour {
     public Text clockText;
 
     
-    public int hour = 010;
+    public int hour = 10;
     public int minute = 0;
 
     private GameObject[] streetlights;
@@ -39,7 +39,7 @@ public class digitalClock : MonoBehaviour {
         {
             nightTime = false;
         }
-
+        //Turns the street lights on when its night time
         if (nightTime)
         {
             for (int i = 0; i < streetlights.Length; i++)
@@ -57,16 +57,23 @@ public class digitalClock : MonoBehaviour {
         }
 
         clockText.text = (hour.ToString("00")) +":" +(minute.ToString("00"));
-
+        //Changes the hour when the minute reaches 60
         if (minute >= 60)
         {
             hour++;
             minute = 0;
         }
+        //Changes the day when the hour reaches 24 and displays 00 instead of 24 for authenticity
         if (hour >= 24)
         {
             hour = 0;
             gm.dayCount++;
+        }
+
+        //Kicks the player out of any establishment at x time
+        if(hour == 23)
+        {
+            gm.currentScene = 0;
         }
     }
 

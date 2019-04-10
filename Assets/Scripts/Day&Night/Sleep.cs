@@ -32,7 +32,7 @@ public class Sleep : MonoBehaviour {
     {
         if (speedTime)
         {
-           // gm.timeModifier = 3f;
+            gm.timeModifier = 3f;
             speedTime = false;
         }
         

@@ -14,6 +14,6 @@ public class animSpeed : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        anim.SetFloat("runSpeed", gm.timeModifier);
+        anim.SetFloat("runSpeed", 1);
 	}
 }
