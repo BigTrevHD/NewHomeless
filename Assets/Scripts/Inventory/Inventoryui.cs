@@ -19,13 +19,13 @@ public class InventoryUI : MonoBehaviour {
 
         if (showInv)
         {
-            Inventory.SetActive(true);           
-          
+            Inventory.GetComponent<Renderer>().enabled = !GetComponent<Renderer>().enabled;
+
         }
-        else
-        {
-            Inventory.SetActive(false);          
+        //else
+        //{
+        //    Inventory.SetActive(false);          
             
-        }
+        //}
     }
 }
