@@ -8,9 +8,10 @@ using UnityEngine.UI;
 public class gameMaster : MonoBehaviour {
     public GameObject player;
     public GameObject lastPos;
-
+    
     public bool showDiary;
     public GameObject Diary;
+        
     public Text cashText; 
 
     public float cash;
@@ -19,8 +20,6 @@ public class gameMaster : MonoBehaviour {
     public Transform mainCam;
     public Transform cafeCam;
     public Transform shelterCam;
-  
-
 
     //Scene switch
     public int currentScene;
@@ -36,7 +35,7 @@ public class gameMaster : MonoBehaviour {
     public float timeSpeed = 0.083333333f;
     public float timeModifier = 1;
 
-
+   // public Dialog dialog;
 
 
     // Use this for initialization
@@ -58,7 +57,10 @@ public class gameMaster : MonoBehaviour {
             Diary.SetActive(true);
             timeSpeed = 0f;
             Time.timeScale = 0f;
+
+         //dialog.StartType();
         }
+
         else
         {
             Diary.SetActive(false);
