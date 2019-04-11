@@ -32,7 +32,7 @@ public class carSpawner : MonoBehaviour
         {
             SpawnThisAI = AIType2;
         }
-        GameObject AI = Instantiate(SpawnThisAI, new Vector3(27.64f, 1.0f, 60.96f), Quaternion.identity) as GameObject;
+        GameObject AI = Instantiate(SpawnThisAI, new Vector3(101.653f, -0.02f, 38.3f), Quaternion.identity) as GameObject;
    }
 }
 
