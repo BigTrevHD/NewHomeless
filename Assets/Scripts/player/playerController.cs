@@ -8,7 +8,7 @@ public class playerController : MonoBehaviour
     float speed = 3;
     float rotSpeed = 9;
     private float rotDir = 0f;
-    float gravity = 8;
+    float gravity = -1;
 
     private bool rotating = false;
 
