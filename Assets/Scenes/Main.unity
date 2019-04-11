@@ -1247,18 +1247,18 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 57292490}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e3642b0d8e40a1745ba4557a9113d717, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   gm: {fileID: 57292491}
   Warmth: 100
-  warmthOverTimer: 10
+  warmthOverTimer: 0
   Thirst: 100
-  thirstOverTimer: 10
+  thirstOverTimer: 2
   Hunger: 100
-  hungerOverTimer: 10
+  hungerOverTimer: 2
   WarmthBar: {fileID: 1319475655}
   ThirstBar: {fileID: 29429582}
   HungerBar: {fileID: 181670970}
@@ -7141,8 +7141,8 @@ MonoBehaviour:
   textDisplay: {fileID: 473456421}
   sentences:
   - Im feeling really low today...
-  - 
-  - 
+  - I haven't eaten in a while...
+  - '...that''ll do for the time being...'
   - 
   - 
   typingSpeed: 0.02
@@ -8614,7 +8614,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -293.2, y: -185.4}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &473456421
@@ -8663,8 +8663,8 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 20
+  m_fontSizeBase: 20
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -8701,7 +8701,7 @@ MonoBehaviour:
   m_firstVisibleCharacter: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: 0, z: -80.35466, w: 0}
   m_textInfo:
     textComponent: {fileID: 473456421}
     characterCount: 0

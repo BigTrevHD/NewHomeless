@@ -9,11 +9,13 @@ public class diaryText : MonoBehaviour {
     private int index;
     public float typingSpeed;
 
+    
+
     private void Start()
     {
-       StartCoroutine(Type()); 
+        StartCoroutine(Type());
     }
-        IEnumerator Type()
+    IEnumerator Type()
 
     {
         foreach (char letter in sentences[index].ToCharArray())
@@ -24,5 +26,24 @@ public class diaryText : MonoBehaviour {
 
 
     }
+
+    public void NextSentence()
+    {
+        if(index < sentences.Length - 1)
+        {
+            index++;
+            textDisplay.text = "";
+            StartCoroutine(Type());
+        }
+        else
+        {
+            textDisplay.text = "";
+        }
+    }
+
+
+
+
+
 }
             
