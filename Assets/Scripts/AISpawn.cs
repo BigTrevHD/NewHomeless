@@ -35,6 +35,6 @@ public class AISpawn : MonoBehaviour {
         {
             SpawnThisAI = AIType3;
         }
-        GameObject AI = Instantiate(SpawnThisAI, new Vector3(0, 0, 0), Quaternion.identity) as GameObject;
+        GameObject AI = Instantiate(SpawnThisAI, new Vector3(63.01f, 0, -7.360314f), Quaternion.identity) as GameObject;
     }
 }

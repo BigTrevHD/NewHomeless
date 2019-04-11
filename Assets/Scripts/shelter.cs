@@ -62,5 +62,10 @@ public class shelter : MonoBehaviour {
         currentTime -= 1;
         queueing = true;
         StartCoroutine("ReduceQueue");
+        if (currentTime <= 0)
+        {
+            currentTime = 0;
+        }
+        
     }
 }
