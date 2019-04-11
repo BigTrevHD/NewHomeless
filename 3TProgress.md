@@ -10,6 +10,8 @@ Quick summary:
 | Sprint 1     |  2/4 |
 | Sprint 2     |  2/4 |
 | Halfway Crit | 5/10 |
+| Sprint 3     | 1/4  |
+| Sprint 4     | 1/4  |
 
 ### Presentation
 
@@ -107,3 +109,18 @@ Project seems on course to be fine. You have a solid base to develop from and I 
 - Good to hear that you're improving tech and group work skills. There seems to be some real progress at a personal level for all of you.
 - _However_...Overall, given that art is very underdeveloped at this point, many mechanics are NOT actually working, and game isn't actually playable (and therefore not alpha), you're behind at this point. Can still more than make up for it though.
   - **5/10.**
+  
+## Sprint 3
+
+- Need to co-ordinate git workflow
+- Reasonable progress made on art and modelling - well done.
+- **BUT** still not playable - many mechanics are not there.
+- Skyline needs attention
+- Must be completely playable from A to B at next sprint. Must be "testable on students in the canteen".
+- **1/4**
+
+## Sprint 4
+
+- Game is still broken. You cannot to continue to blame git problems for not having something to show. Git and version control is an essential part of your group work and you need to get to grips with it.
+- I still haven't seen a playable game.
+- **1/4**
