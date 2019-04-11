@@ -8,6 +8,8 @@ public class playerStats : MonoBehaviour
 {
     public gameMaster gm;
 
+    public bool Hungry;
+
     public float Warmth;
     public float warmthOverTimer;
 
