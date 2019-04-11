@@ -32,14 +32,14 @@ public class EnterBuilding : MonoBehaviour {
         // Sets currentScene based on buildIndex
         // currentScene = SceneManager.GetActiveScene().buildIndex;
 
-        if (immortal.currentScene == 0)
-        {
-           immortal.cam.GetComponent<LookAt>().enabled = true;
-        }
-        else
-        {
-            immortal.cam.GetComponent<LookAt>().enabled = false;
-        }
+        //if (immortal.currentScene == 0)
+        //{
+        //   immortal.cam.GetComponent<LookAt>().enabled = true;
+        //}
+        //else
+        //{
+        //    immortal.cam.GetComponent<LookAt>().enabled = false;
+        //}
         if (immortal.currentScene == 0)
         {
             immortal.cam.transform.position = new Vector3(immortal.mainCam.transform.position.x, immortal.mainCam.transform.position.y, immortal.mainCam.transform.position.z);
