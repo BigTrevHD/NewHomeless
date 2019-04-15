@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.3731195, g: 0.3807401, b: 0.35872737, a: 1}
+  m_IndirectSpecularColor: {r: 0.37311953, g: 0.3807401, b: 0.35872734, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1508,7 +1508,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c5f740d3a9ec16641988c537b2e2f49e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Inventory: {fileID: 675323717}
 --- !u!1001 &58074243
 Prefab:
   m_ObjectHideFlags: 0
@@ -2394,6 +2393,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1313916136}
+  - {fileID: 130434262}
   m_Father: {fileID: 265879844}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2800,6 +2800,61 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 13.496978, y: 5.778178, z: 6.079055}
   m_Center: {x: 4.797865, y: 2.889089, z: -22.357145}
+--- !u!1 &130434261
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 130434262}
+  - component: {fileID: 130434264}
+  - component: {fileID: 130434263}
+  m_Layer: 0
+  m_Name: cafeDoor
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &130434262
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 130434261}
+  m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 67.808, y: -2.27, z: -5.3759995}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 104633621}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!114 &130434263
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 130434261}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91b0cf8048dfd214db03f5c2cdbebfdb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  goToScene: 1
+  immortal: {fileID: 57292491}
+--- !u!65 &130434264
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 130434261}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.9271133, y: 2.0946774, z: 0.31429282}
+  m_Center: {x: -0.41472793, y: 0.5473387, z: 1.2965813}
 --- !u!1001 &131926340
 Prefab:
   m_ObjectHideFlags: 0
@@ -5134,7 +5189,7 @@ GameObject:
   m_Layer: 0
   m_Name: Destination1
   m_TagString: Destination
-  m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -6702,7 +6757,7 @@ GameObject:
   m_Layer: 0
   m_Name: Destination4
   m_TagString: Destination
-  m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -11641,6 +11696,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1912457547}
+  - {fileID: 806342974}
   m_Father: {fileID: 265879844}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -13159,7 +13215,7 @@ GameObject:
   m_Layer: 0
   m_Name: Destination2
   m_TagString: Destination
-  m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -16021,6 +16077,61 @@ RectTransform:
   m_AnchoredPosition: {x: 296.5, y: -32.5}
   m_SizeDelta: {x: 65, y: 65}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &806342973
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 806342974}
+  - component: {fileID: 806342976}
+  - component: {fileID: 806342975}
+  m_Layer: 0
+  m_Name: pawnshopDoor
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &806342974
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 806342973}
+  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 31.6, y: -2.27, z: -13.58}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 583774602}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!114 &806342975
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 806342973}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91b0cf8048dfd214db03f5c2cdbebfdb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  goToScene: 1
+  immortal: {fileID: 57292491}
+--- !u!65 &806342976
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 806342973}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.9271133, y: 2.0946774, z: 0.31429282}
+  m_Center: {x: -0.41472793, y: 0.5473387, z: 1.2965813}
 --- !u!4 &810474335 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4607579739319496, guid: db503b6dd0e844f45a558b6ffe4673b2,
@@ -18015,7 +18126,7 @@ GameObject:
   m_Layer: 0
   m_Name: Destination5
   m_TagString: Destination
-  m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -31423,6 +31534,61 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1657652373}
   m_CullTransparentMesh: 0
+--- !u!1 &1661724019
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1661724020}
+  - component: {fileID: 1661724022}
+  - component: {fileID: 1661724021}
+  m_Layer: 0
+  m_Name: shelterDoor
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1661724020
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1661724019}
+  m_LocalRotation: {x: -0, y: -1, z: -0, w: 0}
+  m_LocalPosition: {x: 4.669, y: 0.378, z: -18.229}
+  m_LocalScale: {x: 0.72553146, y: 0.72553146, z: 0.72553146}
+  m_Children: []
+  m_Father: {fileID: 747822010}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1661724021
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1661724019}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91b0cf8048dfd214db03f5c2cdbebfdb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  goToScene: 2
+  immortal: {fileID: 57292491}
+--- !u!65 &1661724022
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1661724019}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.115135, y: 2.9193258, z: 0.3142929}
+  m_Center: {x: -0.010341644, y: 0.9596629, z: 1.2965813}
 --- !u!1 &1668047230
 GameObject:
   m_ObjectHideFlags: 0
@@ -33493,8 +33659,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 5.8165283, y: 6.958971, z: 9.02977}
-  m_Center: {x: 22.03785, y: 3.4794855, z: -12.97094}
+  m_Size: {x: 5.8165283, y: 6.958971, z: 7.795598}
+  m_Center: {x: 22.03785, y: 3.4794855, z: -13.588026}
 --- !u!1 &1799506788
 GameObject:
   m_ObjectHideFlags: 0
@@ -40123,7 +40289,7 @@ GameObject:
   m_Layer: 0
   m_Name: Destination3
   m_TagString: Destination
-  m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
