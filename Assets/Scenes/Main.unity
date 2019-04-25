@@ -1277,7 +1277,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4352026658303934, guid: 8ae323ee178c63e498ce1b11444b9e1d, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 0.094
+      value: 0.189
       objectReference: {fileID: 0}
     - target: {fileID: 4352026658303934, guid: 8ae323ee178c63e498ce1b11444b9e1d, type: 2}
       propertyPath: m_LocalPosition.z
@@ -1302,35 +1302,6 @@ Prefab:
     - target: {fileID: 4352026658303934, guid: 8ae323ee178c63e498ce1b11444b9e1d, type: 2}
       propertyPath: m_RootOrder
       value: 15
-      objectReference: {fileID: 0}
-    - target: {fileID: 114241614014348068, guid: 8ae323ee178c63e498ce1b11444b9e1d,
-        type: 2}
-      propertyPath: moveSpots.Array.data[0]
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 114241614014348068, guid: 8ae323ee178c63e498ce1b11444b9e1d,
-        type: 2}
-      propertyPath: moveSpots.Array.data[1]
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 114241614014348068, guid: 8ae323ee178c63e498ce1b11444b9e1d,
-        type: 2}
-      propertyPath: moveSpots.Array.data[2]
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 114241614014348068, guid: 8ae323ee178c63e498ce1b11444b9e1d,
-        type: 2}
-      propertyPath: moveSpots.Array.data[3]
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 114241614014348068, guid: 8ae323ee178c63e498ce1b11444b9e1d,
-        type: 2}
-      propertyPath: moveSpots.Array.data[4]
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 1594055321529790, guid: 8ae323ee178c63e498ce1b11444b9e1d, type: 2}
-      propertyPath: m_Name
-      value: Female (1)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ae323ee178c63e498ce1b11444b9e1d, type: 2}
@@ -1379,7 +1350,7 @@ MonoBehaviour:
   mainCam: {fileID: 682424793}
   cafeCam: {fileID: 833653514}
   shelterCam: {fileID: 2060904228}
-  currentScene: 2
+  currentScene: 0
   inv: {fileID: 57292495}
   dayCount: 1
   dayText: {fileID: 2117427219}
@@ -7091,7 +7062,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1481356943623248, guid: 9d29a6457d5836c4ba4b727f0ba91b1a, type: 2}
       propertyPath: m_Name
-      value: Male (2)
+      value: Male
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9d29a6457d5836c4ba4b727f0ba91b1a, type: 2}
@@ -8615,7 +8586,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1481356943623248, guid: 9d29a6457d5836c4ba4b727f0ba91b1a, type: 2}
       propertyPath: m_Name
-      value: Male (1)
+      value: Male
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9d29a6457d5836c4ba4b727f0ba91b1a, type: 2}
@@ -10344,7 +10315,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 534669902}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.07, z: -2}
+  m_LocalPosition: {x: 0, y: -0.07, z: -0.09}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1762168051}
@@ -11407,27 +11378,27 @@ Prefab:
         type: 2}
       propertyPath: moveSpots.Array.data[0]
       value: 
-      objectReference: {fileID: 266905415}
+      objectReference: {fileID: 0}
     - target: {fileID: 114241614014348068, guid: 8ae323ee178c63e498ce1b11444b9e1d,
         type: 2}
       propertyPath: moveSpots.Array.data[1]
       value: 
-      objectReference: {fileID: 648738702}
+      objectReference: {fileID: 0}
     - target: {fileID: 114241614014348068, guid: 8ae323ee178c63e498ce1b11444b9e1d,
         type: 2}
       propertyPath: moveSpots.Array.data[2]
       value: 
-      objectReference: {fileID: 2143387064}
+      objectReference: {fileID: 0}
     - target: {fileID: 114241614014348068, guid: 8ae323ee178c63e498ce1b11444b9e1d,
         type: 2}
       propertyPath: moveSpots.Array.data[3]
       value: 
-      objectReference: {fileID: 359699117}
+      objectReference: {fileID: 0}
     - target: {fileID: 114241614014348068, guid: 8ae323ee178c63e498ce1b11444b9e1d,
         type: 2}
       propertyPath: moveSpots.Array.data[4]
       value: 
-      objectReference: {fileID: 953300770}
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ae323ee178c63e498ce1b11444b9e1d, type: 2}
   m_IsPrefabAsset: 0
@@ -13589,7 +13560,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &682424793
 Transform:
   m_ObjectHideFlags: 0
@@ -13609,7 +13580,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 682424792}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 10541d7bdf6508349a3fc4e9b06a235a, type: 3}
   m_Name: 
@@ -14948,7 +14919,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1481356943623248, guid: 9d29a6457d5836c4ba4b727f0ba91b1a, type: 2}
       propertyPath: m_Name
-      value: Male (3)
+      value: Male
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9d29a6457d5836c4ba4b727f0ba91b1a, type: 2}
@@ -39303,11 +39274,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4913643490589430, guid: 9d29a6457d5836c4ba4b727f0ba91b1a, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 0.158
+      value: 0.199
       objectReference: {fileID: 0}
     - target: {fileID: 4913643490589430, guid: 9d29a6457d5836c4ba4b727f0ba91b1a, type: 2}
       propertyPath: m_LocalPosition.z
-      value: -7.6538
+      value: 10.97
       objectReference: {fileID: 0}
     - target: {fileID: 4913643490589430, guid: 9d29a6457d5836c4ba4b727f0ba91b1a, type: 2}
       propertyPath: m_LocalRotation.x
@@ -39329,32 +39300,8 @@ Prefab:
       propertyPath: m_RootOrder
       value: 6
       objectReference: {fileID: 0}
-    - target: {fileID: 114760579369434030, guid: 9d29a6457d5836c4ba4b727f0ba91b1a,
-        type: 2}
-      propertyPath: moveSpots.Array.data[0]
-      value: 
-      objectReference: {fileID: 266905415}
-    - target: {fileID: 114760579369434030, guid: 9d29a6457d5836c4ba4b727f0ba91b1a,
-        type: 2}
-      propertyPath: moveSpots.Array.data[1]
-      value: 
-      objectReference: {fileID: 648738702}
-    - target: {fileID: 114760579369434030, guid: 9d29a6457d5836c4ba4b727f0ba91b1a,
-        type: 2}
-      propertyPath: moveSpots.Array.data[2]
-      value: 
-      objectReference: {fileID: 2143387064}
-    - target: {fileID: 114760579369434030, guid: 9d29a6457d5836c4ba4b727f0ba91b1a,
-        type: 2}
-      propertyPath: moveSpots.Array.data[3]
-      value: 
-      objectReference: {fileID: 359699117}
-    - target: {fileID: 114760579369434030, guid: 9d29a6457d5836c4ba4b727f0ba91b1a,
-        type: 2}
-      propertyPath: moveSpots.Array.data[4]
-      value: 
-      objectReference: {fileID: 953300770}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 114343517967989896, guid: 9d29a6457d5836c4ba4b727f0ba91b1a, type: 2}
   m_SourcePrefab: {fileID: 100100000, guid: 9d29a6457d5836c4ba4b727f0ba91b1a, type: 2}
   m_IsPrefabAsset: 0
 --- !u!1001 &2087713458
@@ -39536,6 +39483,24 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2093238336}
   m_Mesh: {fileID: 4300000, guid: 1e48b2dc9fcf0d9488ec618f078a2b1a, type: 3}
+--- !u!1 &2095949726 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1756717879356922, guid: 9d29a6457d5836c4ba4b727f0ba91b1a,
+    type: 2}
+  m_PrefabInternal: {fileID: 2086900851}
+--- !u!114 &2095949731
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2095949726}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97d66ada2024be249a5a54621865f997, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  giveChance: 0
+  giveAmount: 0
 --- !u!1001 &2096290122
 Prefab:
   m_ObjectHideFlags: 0
