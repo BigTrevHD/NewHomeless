@@ -98,21 +98,21 @@ NavMeshSettings:
   m_BuildSettings:
     serializedVersion: 2
     agentTypeID: 0
-    agentRadius: 0.5
-    agentHeight: 2
-    agentSlope: 45
+    agentRadius: 0.1
+    agentHeight: 4
+    agentSlope: 0
     agentClimb: 0.4
     ledgeDropHeight: 0
     maxJumpAcrossDistance: 0
     minRegionArea: 2
     manualCellSize: 0
-    cellSize: 0.16666667
+    cellSize: 0.033333335
     manualTileSize: 0
     tileSize: 256
     accuratePlacement: 0
     debug:
       m_Flags: 0
-  m_NavMeshData: {fileID: 0}
+  m_NavMeshData: {fileID: 23800000, guid: 9334c714a307fa54c908556458e89989, type: 2}
 --- !u!1001 &1459809
 Prefab:
   m_ObjectHideFlags: 0
@@ -167,6 +167,10 @@ Prefab:
     - target: {fileID: 100002, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
       propertyPath: m_Name
       value: pave (120)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
@@ -286,6 +290,10 @@ Prefab:
       propertyPath: m_Name
       value: roads (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 1e48b2dc9fcf0d9488ec618f078a2b1a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e48b2dc9fcf0d9488ec618f078a2b1a, type: 3}
   m_IsPrefabAsset: 0
@@ -345,7 +353,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &27064769
 Transform:
@@ -765,6 +773,10 @@ Prefab:
       propertyPath: m_Name
       value: pave (152)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
   m_IsPrefabAsset: 0
@@ -921,6 +933,10 @@ Prefab:
       propertyPath: m_Name
       value: roads (42)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 1e48b2dc9fcf0d9488ec618f078a2b1a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e48b2dc9fcf0d9488ec618f078a2b1a, type: 3}
   m_IsPrefabAsset: 0
@@ -1001,6 +1017,10 @@ Prefab:
       propertyPath: m_Name
       value: pave (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
   m_IsPrefabAsset: 0
@@ -1075,6 +1095,10 @@ Prefab:
     - target: {fileID: 100002, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
       propertyPath: m_Name
       value: pave (78)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
@@ -1210,6 +1234,10 @@ Prefab:
     - target: {fileID: 400000, guid: 1e48b2dc9fcf0d9488ec618f078a2b1a, type: 3}
       propertyPath: m_LocalPosition.z
       value: 17.61
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 1e48b2dc9fcf0d9488ec618f078a2b1a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e48b2dc9fcf0d9488ec618f078a2b1a, type: 3}
@@ -1534,6 +1562,10 @@ Prefab:
       propertyPath: m_Name
       value: pave (97)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
   m_IsPrefabAsset: 0
@@ -1676,6 +1708,10 @@ Prefab:
       propertyPath: m_LocalPosition.z
       value: 120
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
   m_IsPrefabAsset: 0
@@ -1777,6 +1813,10 @@ Prefab:
       propertyPath: m_Name
       value: roads (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 1e48b2dc9fcf0d9488ec618f078a2b1a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e48b2dc9fcf0d9488ec618f078a2b1a, type: 3}
   m_IsPrefabAsset: 0
@@ -1873,6 +1913,10 @@ Prefab:
     - target: {fileID: 100002, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
       propertyPath: m_Name
       value: pave (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
@@ -2090,6 +2134,10 @@ Prefab:
       propertyPath: m_Name
       value: pave (159)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
   m_IsPrefabAsset: 0
@@ -2199,6 +2247,10 @@ Prefab:
       propertyPath: m_LocalPosition.z
       value: 120
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
   m_IsPrefabAsset: 0
@@ -2296,6 +2348,10 @@ Prefab:
       propertyPath: m_Name
       value: pave (100)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
   m_IsPrefabAsset: 0
@@ -2363,7 +2419,7 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 1313916136}
+  - {fileID: 1089138638}
   - {fileID: 130434262}
   m_Father: {fileID: 265879844}
   m_RootOrder: 0
@@ -2556,6 +2612,10 @@ Prefab:
       propertyPath: m_Name
       value: pave (143)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
   m_IsPrefabAsset: 0
@@ -2652,6 +2712,10 @@ Prefab:
     - target: {fileID: 100002, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
       propertyPath: m_Name
       value: pave (82)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
@@ -2881,6 +2945,10 @@ Prefab:
       propertyPath: m_Name
       value: pave (133)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
   m_IsPrefabAsset: 0
@@ -2977,6 +3045,10 @@ Prefab:
     - target: {fileID: 100002, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
       propertyPath: m_Name
       value: pave (66)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
@@ -3112,6 +3184,10 @@ Prefab:
     - target: {fileID: 400000, guid: 1e48b2dc9fcf0d9488ec618f078a2b1a, type: 3}
       propertyPath: m_LocalPosition.z
       value: 17.61
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 1e48b2dc9fcf0d9488ec618f078a2b1a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e48b2dc9fcf0d9488ec618f078a2b1a, type: 3}
@@ -3267,6 +3343,10 @@ Prefab:
     - target: {fileID: 100002, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
       propertyPath: m_Name
       value: pave (95)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
@@ -3579,6 +3659,10 @@ Prefab:
       propertyPath: m_Name
       value: pave (89)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
   m_IsPrefabAsset: 0
@@ -3741,6 +3825,10 @@ Prefab:
     - target: {fileID: 100002, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
       propertyPath: m_Name
       value: pave (142)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
@@ -3946,6 +4034,10 @@ Prefab:
       propertyPath: m_Name
       value: roads (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 1e48b2dc9fcf0d9488ec618f078a2b1a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e48b2dc9fcf0d9488ec618f078a2b1a, type: 3}
   m_IsPrefabAsset: 0
@@ -4111,6 +4203,10 @@ Prefab:
       propertyPath: m_Name
       value: pave (27)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
   m_IsPrefabAsset: 0
@@ -4207,6 +4303,10 @@ Prefab:
     - target: {fileID: 100002, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
       propertyPath: m_Name
       value: pave (106)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
@@ -4337,6 +4437,10 @@ Prefab:
     - target: {fileID: 100002, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
       propertyPath: m_Name
       value: pave (90)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
@@ -4554,6 +4658,10 @@ Prefab:
       propertyPath: m_LocalPosition.z
       value: 120
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
   m_IsPrefabAsset: 0
@@ -4651,6 +4759,10 @@ Prefab:
       propertyPath: m_Name
       value: pave (148)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
   m_IsPrefabAsset: 0
@@ -4747,6 +4859,10 @@ Prefab:
     - target: {fileID: 100002, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
       propertyPath: m_Name
       value: pave (144)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
@@ -4976,6 +5092,10 @@ Prefab:
       propertyPath: m_Name
       value: roads (33)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 1e48b2dc9fcf0d9488ec618f078a2b1a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e48b2dc9fcf0d9488ec618f078a2b1a, type: 3}
   m_IsPrefabAsset: 0
@@ -5114,6 +5234,10 @@ Prefab:
       propertyPath: m_Name
       value: pave (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
   m_IsPrefabAsset: 0
@@ -5232,6 +5356,10 @@ Prefab:
       propertyPath: m_Name
       value: pave (31)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
   m_IsPrefabAsset: 0
@@ -5329,6 +5457,10 @@ Prefab:
       propertyPath: m_Name
       value: pave (112)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
   m_IsPrefabAsset: 0
@@ -5425,6 +5557,10 @@ Prefab:
     - target: {fileID: 100002, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
       propertyPath: m_Name
       value: pave (87)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
@@ -5785,6 +5921,10 @@ Prefab:
       propertyPath: m_Name
       value: pave (126)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
   m_IsPrefabAsset: 0
@@ -5881,6 +6021,10 @@ Prefab:
     - target: {fileID: 100002, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
       propertyPath: m_Name
       value: pave (72)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
@@ -6030,6 +6174,10 @@ Prefab:
       propertyPath: m_LocalPosition.z
       value: 120
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
   m_IsPrefabAsset: 0
@@ -6138,6 +6286,10 @@ Prefab:
     - target: {fileID: 400000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
       propertyPath: m_LocalPosition.z
       value: 120
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
@@ -6248,6 +6400,10 @@ Prefab:
       propertyPath: m_LocalPosition.z
       value: 120
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
   m_IsPrefabAsset: 0
@@ -6356,6 +6512,10 @@ Prefab:
     - target: {fileID: 400000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
       propertyPath: m_LocalPosition.z
       value: 120
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
@@ -6648,6 +6808,10 @@ Prefab:
       propertyPath: m_Name
       value: pave (93)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
   m_IsPrefabAsset: 0
@@ -6812,6 +6976,10 @@ Prefab:
       propertyPath: m_LocalPosition.z
       value: 120
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
   m_IsPrefabAsset: 0
@@ -6954,6 +7122,10 @@ Prefab:
       propertyPath: m_Name
       value: pave (138)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
   m_IsPrefabAsset: 0
@@ -7035,34 +7207,10 @@ Prefab:
       propertyPath: m_RootOrder
       value: 17
       objectReference: {fileID: 0}
-    - target: {fileID: 114760579369434030, guid: 9d29a6457d5836c4ba4b727f0ba91b1a,
+    - target: {fileID: 195835167612692744, guid: 9d29a6457d5836c4ba4b727f0ba91b1a,
         type: 2}
-      propertyPath: moveSpots.Array.data[0]
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 114760579369434030, guid: 9d29a6457d5836c4ba4b727f0ba91b1a,
-        type: 2}
-      propertyPath: moveSpots.Array.data[1]
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 114760579369434030, guid: 9d29a6457d5836c4ba4b727f0ba91b1a,
-        type: 2}
-      propertyPath: moveSpots.Array.data[2]
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 114760579369434030, guid: 9d29a6457d5836c4ba4b727f0ba91b1a,
-        type: 2}
-      propertyPath: moveSpots.Array.data[3]
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 114760579369434030, guid: 9d29a6457d5836c4ba4b727f0ba91b1a,
-        type: 2}
-      propertyPath: moveSpots.Array.data[4]
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 1481356943623248, guid: 9d29a6457d5836c4ba4b727f0ba91b1a, type: 2}
-      propertyPath: m_Name
-      value: Male
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9d29a6457d5836c4ba4b727f0ba91b1a, type: 2}
@@ -7133,6 +7281,10 @@ Prefab:
     - target: {fileID: 400000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
       propertyPath: m_LocalPosition.z
       value: 120
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
@@ -7247,6 +7399,10 @@ Prefab:
     - target: {fileID: 100002, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
       propertyPath: m_Name
       value: pave (153)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
@@ -7481,6 +7637,10 @@ Prefab:
       propertyPath: m_Name
       value: pave (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
   m_IsPrefabAsset: 0
@@ -7569,6 +7729,10 @@ Prefab:
     - target: {fileID: 100002, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
       propertyPath: m_Name
       value: pave (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
@@ -7670,6 +7834,10 @@ Prefab:
     - target: {fileID: 100002, guid: 1e48b2dc9fcf0d9488ec618f078a2b1a, type: 3}
       propertyPath: m_Name
       value: roads (48)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 1e48b2dc9fcf0d9488ec618f078a2b1a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e48b2dc9fcf0d9488ec618f078a2b1a, type: 3}
@@ -7786,6 +7954,10 @@ Prefab:
     - target: {fileID: 400000, guid: 1e48b2dc9fcf0d9488ec618f078a2b1a, type: 3}
       propertyPath: m_LocalPosition.y
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 1e48b2dc9fcf0d9488ec618f078a2b1a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e48b2dc9fcf0d9488ec618f078a2b1a, type: 3}
@@ -7934,6 +8106,10 @@ Prefab:
     - target: {fileID: 100002, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
       propertyPath: m_Name
       value: pave (155)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
@@ -8250,6 +8426,10 @@ Prefab:
       propertyPath: m_Name
       value: pave (114)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
   m_IsPrefabAsset: 0
@@ -8405,6 +8585,10 @@ Prefab:
       propertyPath: m_Name
       value: roads (50)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 1e48b2dc9fcf0d9488ec618f078a2b1a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e48b2dc9fcf0d9488ec618f078a2b1a, type: 3}
   m_IsPrefabAsset: 0
@@ -8484,6 +8668,10 @@ Prefab:
     - target: {fileID: 100002, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
       propertyPath: m_Name
       value: pave (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
@@ -8708,6 +8896,10 @@ Prefab:
       propertyPath: m_Name
       value: pave (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
   m_IsPrefabAsset: 0
@@ -8765,6 +8957,10 @@ Prefab:
     - target: {fileID: 100002, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
       propertyPath: m_Name
       value: pave (121)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
@@ -8863,6 +9059,10 @@ Prefab:
       propertyPath: m_Name
       value: pave (150)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
   m_IsPrefabAsset: 0
@@ -8959,6 +9159,10 @@ Prefab:
     - target: {fileID: 100002, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
       propertyPath: m_Name
       value: pave (84)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
@@ -9133,6 +9337,10 @@ Prefab:
       propertyPath: m_Name
       value: pave (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
   m_IsPrefabAsset: 0
@@ -9190,6 +9398,10 @@ Prefab:
     - target: {fileID: 100002, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
       propertyPath: m_Name
       value: pave (149)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
@@ -9287,6 +9499,10 @@ Prefab:
     - target: {fileID: 100002, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
       propertyPath: m_Name
       value: pave (77)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
@@ -9538,6 +9754,10 @@ Prefab:
       propertyPath: m_Name
       value: pave (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
   m_IsPrefabAsset: 0
@@ -9753,6 +9973,10 @@ Prefab:
     - target: {fileID: 100002, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
       propertyPath: m_Name
       value: pave (147)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
@@ -10124,6 +10348,10 @@ Prefab:
       propertyPath: m_LocalPosition.z
       value: 120
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
   m_IsPrefabAsset: 0
@@ -10472,6 +10700,10 @@ Prefab:
       propertyPath: m_Name
       value: pave (69)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
   m_IsPrefabAsset: 0
@@ -10572,6 +10804,10 @@ Prefab:
     - target: {fileID: 100002, guid: 1e48b2dc9fcf0d9488ec618f078a2b1a, type: 3}
       propertyPath: m_Name
       value: roads (57)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 1e48b2dc9fcf0d9488ec618f078a2b1a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e48b2dc9fcf0d9488ec618f078a2b1a, type: 3}
@@ -10732,6 +10968,10 @@ Prefab:
     - target: {fileID: 100002, guid: 1e48b2dc9fcf0d9488ec618f078a2b1a, type: 3}
       propertyPath: m_Name
       value: roads (38)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 1e48b2dc9fcf0d9488ec618f078a2b1a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e48b2dc9fcf0d9488ec618f078a2b1a, type: 3}
@@ -10896,6 +11136,10 @@ Prefab:
     - target: {fileID: 100002, guid: 1e48b2dc9fcf0d9488ec618f078a2b1a, type: 3}
       propertyPath: m_Name
       value: roads (32)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 1e48b2dc9fcf0d9488ec618f078a2b1a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e48b2dc9fcf0d9488ec618f078a2b1a, type: 3}
@@ -11099,6 +11343,10 @@ Prefab:
       propertyPath: m_Name
       value: pave (145)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
   m_IsPrefabAsset: 0
@@ -11196,6 +11444,10 @@ Prefab:
       propertyPath: m_Name
       value: pave (115)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
   m_IsPrefabAsset: 0
@@ -11292,6 +11544,10 @@ Prefab:
     - target: {fileID: 100002, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
       propertyPath: m_Name
       value: pave (70)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
@@ -11457,6 +11713,10 @@ Prefab:
       propertyPath: m_Name
       value: pave (28)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
   m_IsPrefabAsset: 0
@@ -11518,6 +11778,10 @@ Prefab:
     - target: {fileID: 100002, guid: 1e48b2dc9fcf0d9488ec618f078a2b1a, type: 3}
       propertyPath: m_Name
       value: roads (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 1e48b2dc9fcf0d9488ec618f078a2b1a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e48b2dc9fcf0d9488ec618f078a2b1a, type: 3}
@@ -11598,6 +11862,10 @@ Prefab:
     - target: {fileID: 100002, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
       propertyPath: m_Name
       value: pave (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
@@ -11742,6 +12010,10 @@ Prefab:
     - target: {fileID: 400000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
       propertyPath: m_LocalPosition.z
       value: 120
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
@@ -11982,6 +12254,10 @@ Prefab:
       propertyPath: m_Name
       value: roads (24)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 1e48b2dc9fcf0d9488ec618f078a2b1a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e48b2dc9fcf0d9488ec618f078a2b1a, type: 3}
   m_IsPrefabAsset: 0
@@ -12061,6 +12337,10 @@ Prefab:
     - target: {fileID: 100002, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
       propertyPath: m_Name
       value: pave (137)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
@@ -12163,6 +12443,10 @@ Prefab:
       propertyPath: m_Name
       value: roads (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 1e48b2dc9fcf0d9488ec618f078a2b1a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e48b2dc9fcf0d9488ec618f078a2b1a, type: 3}
   m_IsPrefabAsset: 0
@@ -12242,6 +12526,10 @@ Prefab:
     - target: {fileID: 100002, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
       propertyPath: m_Name
       value: pave (140)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
@@ -12603,6 +12891,10 @@ Prefab:
       propertyPath: m_LocalPosition.y
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 1e48b2dc9fcf0d9488ec618f078a2b1a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e48b2dc9fcf0d9488ec618f078a2b1a, type: 3}
   m_IsPrefabAsset: 0
@@ -12816,6 +13108,10 @@ Prefab:
       propertyPath: m_Name
       value: pave (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
   m_IsPrefabAsset: 0
@@ -12885,6 +13181,10 @@ Prefab:
     - target: {fileID: 400000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
       propertyPath: m_LocalPosition.z
       value: 120
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
@@ -13082,6 +13382,10 @@ Prefab:
       propertyPath: m_Name
       value: pave (94)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
   m_IsPrefabAsset: 0
@@ -13258,6 +13562,10 @@ Prefab:
       propertyPath: m_Name
       value: pave (113)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
   m_IsPrefabAsset: 0
@@ -13371,6 +13679,10 @@ Prefab:
     - target: {fileID: 100002, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
       propertyPath: m_Name
       value: pave (110)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
@@ -13690,6 +14002,10 @@ Prefab:
       propertyPath: m_Name
       value: pave (122)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
   m_IsPrefabAsset: 0
@@ -13970,6 +14286,10 @@ Prefab:
       propertyPath: m_Name
       value: roads (35)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 1e48b2dc9fcf0d9488ec618f078a2b1a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e48b2dc9fcf0d9488ec618f078a2b1a, type: 3}
   m_IsPrefabAsset: 0
@@ -14119,6 +14439,10 @@ Prefab:
     - target: {fileID: 100002, guid: 1e48b2dc9fcf0d9488ec618f078a2b1a, type: 3}
       propertyPath: m_Name
       value: roads (41)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 1e48b2dc9fcf0d9488ec618f078a2b1a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e48b2dc9fcf0d9488ec618f078a2b1a, type: 3}
@@ -14475,6 +14799,10 @@ Prefab:
       propertyPath: m_Name
       value: roads (39)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 1e48b2dc9fcf0d9488ec618f078a2b1a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e48b2dc9fcf0d9488ec618f078a2b1a, type: 3}
   m_IsPrefabAsset: 0
@@ -14703,6 +15031,10 @@ Prefab:
     - target: {fileID: 400000, guid: 1e48b2dc9fcf0d9488ec618f078a2b1a, type: 3}
       propertyPath: m_LocalPosition.z
       value: -0.000020981
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 1e48b2dc9fcf0d9488ec618f078a2b1a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e48b2dc9fcf0d9488ec618f078a2b1a, type: 3}
@@ -15013,6 +15345,10 @@ Prefab:
       propertyPath: m_Name
       value: roads (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 1e48b2dc9fcf0d9488ec618f078a2b1a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e48b2dc9fcf0d9488ec618f078a2b1a, type: 3}
   m_IsPrefabAsset: 0
@@ -15087,6 +15423,10 @@ Prefab:
     - target: {fileID: 100002, guid: 1e48b2dc9fcf0d9488ec618f078a2b1a, type: 3}
       propertyPath: m_Name
       value: roads (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 1e48b2dc9fcf0d9488ec618f078a2b1a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e48b2dc9fcf0d9488ec618f078a2b1a, type: 3}
@@ -15268,6 +15608,10 @@ Prefab:
     - target: {fileID: 100002, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
       propertyPath: m_Name
       value: pave (154)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
@@ -15465,6 +15809,10 @@ Prefab:
     - target: {fileID: 100002, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
       propertyPath: m_Name
       value: pave (79)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
@@ -15667,6 +16015,10 @@ Prefab:
       propertyPath: m_Name
       value: pave (29)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
   m_IsPrefabAsset: 0
@@ -15763,6 +16115,10 @@ Prefab:
     - target: {fileID: 100002, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
       propertyPath: m_Name
       value: pave (139)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
@@ -15861,6 +16217,10 @@ Prefab:
       propertyPath: m_Name
       value: pave (65)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
   m_IsPrefabAsset: 0
@@ -15958,6 +16318,10 @@ Prefab:
       propertyPath: m_Name
       value: pave (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
   m_IsPrefabAsset: 0
@@ -16015,6 +16379,10 @@ Prefab:
     - target: {fileID: 100002, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
       propertyPath: m_Name
       value: pave (111)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
@@ -16304,6 +16672,10 @@ Prefab:
     - target: {fileID: 100002, guid: 1e48b2dc9fcf0d9488ec618f078a2b1a, type: 3}
       propertyPath: m_Name
       value: roads (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 1e48b2dc9fcf0d9488ec618f078a2b1a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e48b2dc9fcf0d9488ec618f078a2b1a, type: 3}
@@ -16858,6 +17230,10 @@ Prefab:
       propertyPath: m_Name
       value: pave (85)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
   m_IsPrefabAsset: 0
@@ -17183,6 +17559,10 @@ Prefab:
       propertyPath: m_Name
       value: pave (135)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
   m_IsPrefabAsset: 0
@@ -17389,6 +17769,10 @@ Prefab:
       propertyPath: m_Name
       value: pave (83)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
   m_IsPrefabAsset: 0
@@ -17489,6 +17873,10 @@ Prefab:
     - target: {fileID: 100002, guid: 1e48b2dc9fcf0d9488ec618f078a2b1a, type: 3}
       propertyPath: m_Name
       value: roads (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 1e48b2dc9fcf0d9488ec618f078a2b1a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e48b2dc9fcf0d9488ec618f078a2b1a, type: 3}
@@ -17815,6 +18203,10 @@ Prefab:
       propertyPath: m_Name
       value: roads (46)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 1e48b2dc9fcf0d9488ec618f078a2b1a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e48b2dc9fcf0d9488ec618f078a2b1a, type: 3}
   m_IsPrefabAsset: 0
@@ -18074,6 +18466,10 @@ Prefab:
       propertyPath: m_Name
       value: pave (91)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
   m_IsPrefabAsset: 0
@@ -18239,6 +18635,10 @@ Prefab:
       propertyPath: m_LocalPosition.z
       value: 120
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
   m_IsPrefabAsset: 0
@@ -18335,6 +18735,10 @@ Prefab:
     - target: {fileID: 100002, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
       propertyPath: m_Name
       value: pave (129)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
@@ -18433,6 +18837,10 @@ Prefab:
       propertyPath: m_Name
       value: roads (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 1e48b2dc9fcf0d9488ec618f078a2b1a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e48b2dc9fcf0d9488ec618f078a2b1a, type: 3}
   m_IsPrefabAsset: 0
@@ -18523,6 +18931,10 @@ Prefab:
     - target: {fileID: 100002, guid: 1e48b2dc9fcf0d9488ec618f078a2b1a, type: 3}
       propertyPath: m_Name
       value: roads (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 1e48b2dc9fcf0d9488ec618f078a2b1a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e48b2dc9fcf0d9488ec618f078a2b1a, type: 3}
@@ -18890,6 +19302,10 @@ Prefab:
     - target: {fileID: 400000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
       propertyPath: m_LocalPosition.z
       value: 120
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
@@ -19385,6 +19801,10 @@ Prefab:
       propertyPath: m_Name
       value: pave (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
   m_IsPrefabAsset: 0
@@ -19474,6 +19894,10 @@ Prefab:
       propertyPath: m_Name
       value: roads (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 1e48b2dc9fcf0d9488ec618f078a2b1a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e48b2dc9fcf0d9488ec618f078a2b1a, type: 3}
   m_IsPrefabAsset: 0
@@ -19553,6 +19977,10 @@ Prefab:
     - target: {fileID: 100002, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
       propertyPath: m_Name
       value: pave (74)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
@@ -19709,6 +20137,10 @@ Prefab:
     - target: {fileID: 100002, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
       propertyPath: m_Name
       value: pave (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
@@ -19875,6 +20307,10 @@ Prefab:
       propertyPath: m_Name
       value: roads (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 1e48b2dc9fcf0d9488ec618f078a2b1a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e48b2dc9fcf0d9488ec618f078a2b1a, type: 3}
   m_IsPrefabAsset: 0
@@ -20015,6 +20451,10 @@ Prefab:
       propertyPath: m_Name
       value: roads (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 1e48b2dc9fcf0d9488ec618f078a2b1a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e48b2dc9fcf0d9488ec618f078a2b1a, type: 3}
   m_IsPrefabAsset: 0
@@ -20098,6 +20538,10 @@ Prefab:
     - target: {fileID: 100002, guid: 1e48b2dc9fcf0d9488ec618f078a2b1a, type: 3}
       propertyPath: m_Name
       value: roads (49)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 1e48b2dc9fcf0d9488ec618f078a2b1a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e48b2dc9fcf0d9488ec618f078a2b1a, type: 3}
@@ -20208,6 +20652,10 @@ Prefab:
       propertyPath: m_LocalPosition.z
       value: 120
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
   m_IsPrefabAsset: 0
@@ -20305,6 +20753,10 @@ Prefab:
       propertyPath: m_Name
       value: pave (30)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
   m_IsPrefabAsset: 0
@@ -20401,6 +20853,10 @@ Prefab:
     - target: {fileID: 100002, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
       propertyPath: m_Name
       value: pave (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
@@ -20515,6 +20971,10 @@ Prefab:
     - target: {fileID: 100002, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
       propertyPath: m_Name
       value: pave (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
@@ -20676,6 +21136,10 @@ Prefab:
       propertyPath: m_Name
       value: pave (146)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
   m_IsPrefabAsset: 0
@@ -20785,6 +21249,10 @@ Prefab:
       propertyPath: m_LocalPosition.z
       value: 120
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
   m_IsPrefabAsset: 0
@@ -20882,6 +21350,10 @@ Prefab:
       propertyPath: m_Name
       value: pave (28)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
   m_IsPrefabAsset: 0
@@ -20941,11 +21413,90 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 60, y: 2, z: 60}
   m_Center: {x: 0, y: 1, z: 0}
---- !u!1 &1089138637 stripped
+--- !u!1 &1089138637
 GameObject:
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 100002, guid: eaf46d9fa3dbf3e4ea13b2b8301511a2,
     type: 3}
-  m_PrefabInternal: {fileID: 1313916135}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1089138638}
+  - component: {fileID: 1089138640}
+  - component: {fileID: 1089138639}
+  - component: {fileID: 1089138641}
+  - component: {fileID: 1089138642}
+  m_Layer: 0
+  m_Name: building_Cafe
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 8
+  m_IsActive: 1
+--- !u!4 &1089138638
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 400002, guid: eaf46d9fa3dbf3e4ea13b2b8301511a2,
+    type: 3}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1089138637}
+  m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: -0.7071068}
+  m_LocalPosition: {x: 49.517998, y: -2.7974, z: 0.7480793}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 104633621}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &1089138639
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 2300000, guid: eaf46d9fa3dbf3e4ea13b2b8301511a2,
+    type: 3}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1089138637}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
+  m_Materials:
+  - {fileID: 2100000, guid: eaf46d9fa3dbf3e4ea13b2b8301511a2, type: 3}
+  - {fileID: 2100002, guid: eaf46d9fa3dbf3e4ea13b2b8301511a2, type: 3}
+  - {fileID: 2100004, guid: eaf46d9fa3dbf3e4ea13b2b8301511a2, type: 3}
+  - {fileID: 2100006, guid: eaf46d9fa3dbf3e4ea13b2b8301511a2, type: 3}
+  - {fileID: 2100008, guid: eaf46d9fa3dbf3e4ea13b2b8301511a2, type: 3}
+  - {fileID: 2100010, guid: eaf46d9fa3dbf3e4ea13b2b8301511a2, type: 3}
+  - {fileID: 2100012, guid: eaf46d9fa3dbf3e4ea13b2b8301511a2, type: 3}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &1089138640
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 3300000, guid: eaf46d9fa3dbf3e4ea13b2b8301511a2,
+    type: 3}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1089138637}
+  m_Mesh: {fileID: 4300000, guid: eaf46d9fa3dbf3e4ea13b2b8301511a2, type: 3}
 --- !u!65 &1089138641
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -20958,6 +21509,21 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 5.7580714, y: 6.958971, z: 5.848824}
   m_Center: {x: -5.666119, y: 3.4794855, z: -22.593838}
+--- !u!208 &1089138642
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1089138637}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 3.67, y: 3.479, z: 3.985}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: -5.6660004, y: 3.479, z: -22.329}
+  m_TimeToStationary: 0.5
 --- !u!1 &1092277397
 GameObject:
   m_ObjectHideFlags: 0
@@ -21193,6 +21759,10 @@ Prefab:
       propertyPath: m_Name
       value: pave (105)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
   m_IsPrefabAsset: 0
@@ -21307,6 +21877,10 @@ Prefab:
       propertyPath: m_Name
       value: pave (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
   m_IsPrefabAsset: 0
@@ -21364,6 +21938,10 @@ Prefab:
     - target: {fileID: 100002, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
       propertyPath: m_Name
       value: pave (158)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
@@ -21461,6 +22039,10 @@ Prefab:
     - target: {fileID: 400002, guid: 1e48b2dc9fcf0d9488ec618f078a2b1a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 1e48b2dc9fcf0d9488ec618f078a2b1a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e48b2dc9fcf0d9488ec618f078a2b1a, type: 3}
@@ -21579,6 +22161,10 @@ Prefab:
     - target: {fileID: 100002, guid: 1e48b2dc9fcf0d9488ec618f078a2b1a, type: 3}
       propertyPath: m_Name
       value: roads (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 1e48b2dc9fcf0d9488ec618f078a2b1a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e48b2dc9fcf0d9488ec618f078a2b1a, type: 3}
@@ -21735,6 +22321,10 @@ Prefab:
       propertyPath: m_Name
       value: pave (118)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
   m_IsPrefabAsset: 0
@@ -21847,6 +22437,10 @@ Prefab:
     - target: {fileID: 400000, guid: 1e48b2dc9fcf0d9488ec618f078a2b1a, type: 3}
       propertyPath: m_LocalPosition.z
       value: 17.61
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 1e48b2dc9fcf0d9488ec618f078a2b1a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e48b2dc9fcf0d9488ec618f078a2b1a, type: 3}
@@ -22013,6 +22607,10 @@ Prefab:
       propertyPath: m_Name
       value: pave (102)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
   m_IsPrefabAsset: 0
@@ -22110,6 +22708,10 @@ Prefab:
       propertyPath: m_Name
       value: pave (116)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
   m_IsPrefabAsset: 0
@@ -22206,6 +22808,10 @@ Prefab:
     - target: {fileID: 100002, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
       propertyPath: m_Name
       value: pave (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
@@ -22456,6 +23062,10 @@ Prefab:
       propertyPath: m_Name
       value: pave (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
   m_IsPrefabAsset: 0
@@ -22664,6 +23274,10 @@ Prefab:
       propertyPath: m_Name
       value: roads (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 1e48b2dc9fcf0d9488ec618f078a2b1a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e48b2dc9fcf0d9488ec618f078a2b1a, type: 3}
   m_IsPrefabAsset: 0
@@ -22771,6 +23385,10 @@ Prefab:
     - target: {fileID: 100002, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
       propertyPath: m_Name
       value: pave (76)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
@@ -22940,6 +23558,10 @@ Prefab:
       propertyPath: m_Name
       value: pave (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
   m_IsPrefabAsset: 0
@@ -23013,6 +23635,10 @@ Prefab:
     - target: {fileID: 400000, guid: 1e48b2dc9fcf0d9488ec618f078a2b1a, type: 3}
       propertyPath: m_LocalPosition.z
       value: 17.61
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 1e48b2dc9fcf0d9488ec618f078a2b1a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e48b2dc9fcf0d9488ec618f078a2b1a, type: 3}
@@ -23305,6 +23931,10 @@ Prefab:
       propertyPath: m_LocalPosition.z
       value: 120
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
   m_IsPrefabAsset: 0
@@ -23500,6 +24130,10 @@ Prefab:
       propertyPath: m_Name
       value: pave (119)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
   m_IsPrefabAsset: 0
@@ -23596,6 +24230,10 @@ Prefab:
     - target: {fileID: 100002, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
       propertyPath: m_Name
       value: pave (103)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
@@ -23755,6 +24393,10 @@ Prefab:
     - target: {fileID: 100002, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
       propertyPath: m_Name
       value: pave (125)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
@@ -24005,6 +24647,10 @@ Prefab:
       propertyPath: m_Name
       value: roads (34)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 1e48b2dc9fcf0d9488ec618f078a2b1a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e48b2dc9fcf0d9488ec618f078a2b1a, type: 3}
   m_IsPrefabAsset: 0
@@ -24085,6 +24731,10 @@ Prefab:
       propertyPath: m_Name
       value: pave (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
   m_IsPrefabAsset: 0
@@ -24142,6 +24792,10 @@ Prefab:
     - target: {fileID: 100002, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
       propertyPath: m_Name
       value: pave (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
@@ -24352,6 +25006,10 @@ Prefab:
     - target: {fileID: 400000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
       propertyPath: m_LocalPosition.z
       value: 120
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
@@ -24588,6 +25246,10 @@ Prefab:
       propertyPath: m_LocalPosition.z
       value: 120
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
   m_IsPrefabAsset: 0
@@ -24808,65 +25470,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1310293307}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1001 &1313916135
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 104633621}
-    m_Modifications:
-    - target: {fileID: 400000, guid: eaf46d9fa3dbf3e4ea13b2b8301511a2, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 49.518
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: eaf46d9fa3dbf3e4ea13b2b8301511a2, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -2.7974
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: eaf46d9fa3dbf3e4ea13b2b8301511a2, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0.74808
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: eaf46d9fa3dbf3e4ea13b2b8301511a2, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: eaf46d9fa3dbf3e4ea13b2b8301511a2, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: eaf46d9fa3dbf3e4ea13b2b8301511a2, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: eaf46d9fa3dbf3e4ea13b2b8301511a2, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: -0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: eaf46d9fa3dbf3e4ea13b2b8301511a2, type: 3}
-      propertyPath: m_RootOrder
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: eaf46d9fa3dbf3e4ea13b2b8301511a2, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 270
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: eaf46d9fa3dbf3e4ea13b2b8301511a2, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: eaf46d9fa3dbf3e4ea13b2b8301511a2, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 1
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: eaf46d9fa3dbf3e4ea13b2b8301511a2, type: 3}
-  m_IsPrefabAsset: 0
---- !u!4 &1313916136 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 400000, guid: eaf46d9fa3dbf3e4ea13b2b8301511a2,
-    type: 3}
-  m_PrefabInternal: {fileID: 1313916135}
 --- !u!1 &1314587419
 GameObject:
   m_ObjectHideFlags: 0
@@ -24983,6 +25586,10 @@ Prefab:
     - target: {fileID: 100002, guid: 1e48b2dc9fcf0d9488ec618f078a2b1a, type: 3}
       propertyPath: m_Name
       value: roads (30)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 1e48b2dc9fcf0d9488ec618f078a2b1a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e48b2dc9fcf0d9488ec618f078a2b1a, type: 3}
@@ -25245,6 +25852,10 @@ Prefab:
       propertyPath: m_Name
       value: pave (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
   m_IsPrefabAsset: 0
@@ -25370,6 +25981,10 @@ Prefab:
     - target: {fileID: 100002, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
       propertyPath: m_Name
       value: pave (67)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
@@ -25757,6 +26372,10 @@ Prefab:
       propertyPath: m_Name
       value: roads (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 1e48b2dc9fcf0d9488ec618f078a2b1a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e48b2dc9fcf0d9488ec618f078a2b1a, type: 3}
   m_IsPrefabAsset: 0
@@ -25871,6 +26490,10 @@ Prefab:
       propertyPath: m_Name
       value: pave (128)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
   m_IsPrefabAsset: 0
@@ -25972,6 +26595,10 @@ Prefab:
     - target: {fileID: 100002, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
       propertyPath: m_Name
       value: pave (98)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
@@ -26129,6 +26756,10 @@ Prefab:
       propertyPath: m_LocalPosition.z
       value: 120
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
   m_IsPrefabAsset: 0
@@ -26270,7 +26901,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1419368269
 Transform:
@@ -26485,6 +27116,10 @@ Prefab:
       propertyPath: m_Name
       value: pave (29)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
   m_IsPrefabAsset: 0
@@ -26606,6 +27241,10 @@ Prefab:
       propertyPath: m_Name
       value: pave (88)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
   m_IsPrefabAsset: 0
@@ -26702,6 +27341,10 @@ Prefab:
     - target: {fileID: 100002, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
       propertyPath: m_Name
       value: pave (157)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
@@ -27080,6 +27723,10 @@ Prefab:
       propertyPath: m_LocalPosition.y
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 1e48b2dc9fcf0d9488ec618f078a2b1a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e48b2dc9fcf0d9488ec618f078a2b1a, type: 3}
   m_IsPrefabAsset: 0
@@ -27159,6 +27806,10 @@ Prefab:
     - target: {fileID: 100002, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
       propertyPath: m_Name
       value: pave (151)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
@@ -27256,6 +27907,10 @@ Prefab:
     - target: {fileID: 100002, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
       propertyPath: m_Name
       value: pave (130)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
@@ -27357,6 +28012,10 @@ Prefab:
     - target: {fileID: 100002, guid: 1e48b2dc9fcf0d9488ec618f078a2b1a, type: 3}
       propertyPath: m_Name
       value: roads (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 1e48b2dc9fcf0d9488ec618f078a2b1a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e48b2dc9fcf0d9488ec618f078a2b1a, type: 3}
@@ -27482,6 +28141,10 @@ Prefab:
     - target: {fileID: 400000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
       propertyPath: m_LocalPosition.z
       value: 120
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
@@ -27642,6 +28305,10 @@ Prefab:
       propertyPath: m_Name
       value: pave (86)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
   m_IsPrefabAsset: 0
@@ -27739,6 +28406,10 @@ Prefab:
       propertyPath: m_Name
       value: pave (101)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
   m_IsPrefabAsset: 0
@@ -27835,6 +28506,10 @@ Prefab:
     - target: {fileID: 100002, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
       propertyPath: m_Name
       value: pave (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
@@ -27990,6 +28665,10 @@ Prefab:
       propertyPath: m_Name
       value: pave (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
   m_IsPrefabAsset: 0
@@ -28087,6 +28766,10 @@ Prefab:
       propertyPath: m_Name
       value: pave (123)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
   m_IsPrefabAsset: 0
@@ -28183,6 +28866,10 @@ Prefab:
     - target: {fileID: 100002, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
       propertyPath: m_Name
       value: pave (75)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
@@ -28610,6 +29297,10 @@ Prefab:
       propertyPath: m_Name
       value: roads (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 1e48b2dc9fcf0d9488ec618f078a2b1a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e48b2dc9fcf0d9488ec618f078a2b1a, type: 3}
   m_IsPrefabAsset: 0
@@ -28867,6 +29558,10 @@ Prefab:
     - target: {fileID: 100002, guid: 1e48b2dc9fcf0d9488ec618f078a2b1a, type: 3}
       propertyPath: m_Name
       value: roads (51)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 1e48b2dc9fcf0d9488ec618f078a2b1a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e48b2dc9fcf0d9488ec618f078a2b1a, type: 3}
@@ -29342,6 +30037,10 @@ Prefab:
       propertyPath: m_Name
       value: roads (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 1e48b2dc9fcf0d9488ec618f078a2b1a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e48b2dc9fcf0d9488ec618f078a2b1a, type: 3}
   m_IsPrefabAsset: 0
@@ -29433,6 +30132,10 @@ Prefab:
     - target: {fileID: 400000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
       propertyPath: m_LocalPosition.z
       value: 120
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
@@ -29841,6 +30544,10 @@ Prefab:
       propertyPath: m_Name
       value: pave (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
   m_IsPrefabAsset: 0
@@ -29950,6 +30657,10 @@ Prefab:
       propertyPath: m_LocalPosition.z
       value: 120
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
   m_IsPrefabAsset: 0
@@ -30051,6 +30762,10 @@ Prefab:
       propertyPath: m_Name
       value: roads (45)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 1e48b2dc9fcf0d9488ec618f078a2b1a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e48b2dc9fcf0d9488ec618f078a2b1a, type: 3}
   m_IsPrefabAsset: 0
@@ -30130,6 +30845,10 @@ Prefab:
     - target: {fileID: 100002, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
       propertyPath: m_Name
       value: pave (127)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
@@ -30228,6 +30947,10 @@ Prefab:
       propertyPath: m_Name
       value: pave (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
   m_IsPrefabAsset: 0
@@ -30289,6 +31012,10 @@ Prefab:
     - target: {fileID: 100002, guid: 1e48b2dc9fcf0d9488ec618f078a2b1a, type: 3}
       propertyPath: m_Name
       value: roads (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 1e48b2dc9fcf0d9488ec618f078a2b1a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e48b2dc9fcf0d9488ec618f078a2b1a, type: 3}
@@ -30498,6 +31225,10 @@ Prefab:
       propertyPath: m_Name
       value: pave (80)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
   m_IsPrefabAsset: 0
@@ -30599,6 +31330,10 @@ Prefab:
       propertyPath: m_Name
       value: roads (24)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 1e48b2dc9fcf0d9488ec618f078a2b1a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e48b2dc9fcf0d9488ec618f078a2b1a, type: 3}
   m_IsPrefabAsset: 0
@@ -30678,6 +31413,10 @@ Prefab:
     - target: {fileID: 100002, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
       propertyPath: m_Name
       value: pave (134)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
@@ -30775,6 +31514,10 @@ Prefab:
     - target: {fileID: 100002, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
       propertyPath: m_Name
       value: pave (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
@@ -31157,6 +31900,10 @@ Prefab:
       propertyPath: m_Name
       value: pave (156)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
   m_IsPrefabAsset: 0
@@ -31258,6 +32005,10 @@ Prefab:
       propertyPath: m_Name
       value: roads (31)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 1e48b2dc9fcf0d9488ec618f078a2b1a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e48b2dc9fcf0d9488ec618f078a2b1a, type: 3}
   m_IsPrefabAsset: 0
@@ -31341,6 +32092,10 @@ Prefab:
     - target: {fileID: 100002, guid: 1e48b2dc9fcf0d9488ec618f078a2b1a, type: 3}
       propertyPath: m_Name
       value: roads (36)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 1e48b2dc9fcf0d9488ec618f078a2b1a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e48b2dc9fcf0d9488ec618f078a2b1a, type: 3}
@@ -31836,6 +32591,10 @@ Prefab:
       propertyPath: m_Name
       value: pave (68)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
   m_IsPrefabAsset: 0
@@ -31938,6 +32697,10 @@ Prefab:
       propertyPath: m_Name
       value: pave (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
   m_IsPrefabAsset: 0
@@ -32039,6 +32802,10 @@ Prefab:
     - target: {fileID: 400000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
       propertyPath: m_LocalPosition.z
       value: 120
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
@@ -32148,6 +32915,10 @@ Prefab:
     - target: {fileID: 400000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
       propertyPath: m_LocalPosition.z
       value: 120
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
@@ -32285,6 +33056,10 @@ Prefab:
       propertyPath: m_Name
       value: pave (96)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
   m_IsPrefabAsset: 0
@@ -32398,6 +33173,10 @@ Prefab:
     - target: {fileID: 100002, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
       propertyPath: m_Name
       value: pave (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
@@ -32552,6 +33331,10 @@ Prefab:
       propertyPath: m_Name
       value: pave (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
   m_IsPrefabAsset: 0
@@ -32652,6 +33435,10 @@ Prefab:
     - target: {fileID: 100002, guid: 1e48b2dc9fcf0d9488ec618f078a2b1a, type: 3}
       propertyPath: m_Name
       value: roads (37)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 1e48b2dc9fcf0d9488ec618f078a2b1a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e48b2dc9fcf0d9488ec618f078a2b1a, type: 3}
@@ -32815,6 +33602,10 @@ Prefab:
     - target: {fileID: 100002, guid: 1e48b2dc9fcf0d9488ec618f078a2b1a, type: 3}
       propertyPath: m_Name
       value: roads (29)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 1e48b2dc9fcf0d9488ec618f078a2b1a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e48b2dc9fcf0d9488ec618f078a2b1a, type: 3}
@@ -33044,6 +33835,10 @@ Prefab:
       propertyPath: m_LocalPosition.z
       value: 120
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
   m_IsPrefabAsset: 0
@@ -33236,6 +34031,10 @@ Prefab:
     - target: {fileID: 100002, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
       propertyPath: m_Name
       value: pave (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
@@ -33563,6 +34362,10 @@ Prefab:
       propertyPath: m_Name
       value: pave (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
   m_IsPrefabAsset: 0
@@ -33783,6 +34586,10 @@ Prefab:
       propertyPath: m_Name
       value: pave (26)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
   m_IsPrefabAsset: 0
@@ -33884,6 +34691,10 @@ Prefab:
     - target: {fileID: 100002, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
       propertyPath: m_Name
       value: pave (141)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
@@ -34102,6 +34913,10 @@ Prefab:
       propertyPath: m_Name
       value: pave (64)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
   m_IsPrefabAsset: 0
@@ -34215,6 +35030,10 @@ Prefab:
     - target: {fileID: 400000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
       propertyPath: m_LocalPosition.z
       value: 120
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
@@ -34629,6 +35448,10 @@ Prefab:
       propertyPath: m_LocalPosition.z
       value: 120
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
   m_IsPrefabAsset: 0
@@ -34947,6 +35770,10 @@ Prefab:
       propertyPath: m_Name
       value: pave (131)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
   m_IsPrefabAsset: 0
@@ -35116,6 +35943,10 @@ Prefab:
     - target: {fileID: 100002, guid: 1e48b2dc9fcf0d9488ec618f078a2b1a, type: 3}
       propertyPath: m_Name
       value: roads (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 1e48b2dc9fcf0d9488ec618f078a2b1a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e48b2dc9fcf0d9488ec618f078a2b1a, type: 3}
@@ -35364,6 +36195,10 @@ Prefab:
       propertyPath: m_Name
       value: pave (132)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
   m_IsPrefabAsset: 0
@@ -35516,6 +36351,10 @@ Prefab:
       propertyPath: m_Name
       value: pave (92)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
   m_IsPrefabAsset: 0
@@ -35629,6 +36468,10 @@ Prefab:
       propertyPath: m_LocalPosition.z
       value: 17.61
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 1e48b2dc9fcf0d9488ec618f078a2b1a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e48b2dc9fcf0d9488ec618f078a2b1a, type: 3}
   m_IsPrefabAsset: 0
@@ -35737,6 +36580,10 @@ Prefab:
     - target: {fileID: 400000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
       propertyPath: m_LocalPosition.z
       value: 120
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
@@ -35889,6 +36736,10 @@ Prefab:
       propertyPath: m_Name
       value: pave (81)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
   m_IsPrefabAsset: 0
@@ -35986,6 +36837,10 @@ Prefab:
       propertyPath: m_Name
       value: pave (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
   m_IsPrefabAsset: 0
@@ -36043,6 +36898,10 @@ Prefab:
     - target: {fileID: 100002, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
       propertyPath: m_Name
       value: pave (73)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
@@ -36196,6 +37055,10 @@ Prefab:
       propertyPath: m_Name
       value: roads (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 1e48b2dc9fcf0d9488ec618f078a2b1a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e48b2dc9fcf0d9488ec618f078a2b1a, type: 3}
   m_IsPrefabAsset: 0
@@ -36305,6 +37168,10 @@ Prefab:
       propertyPath: m_LocalPosition.z
       value: 120
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
   m_IsPrefabAsset: 0
@@ -36410,6 +37277,10 @@ Prefab:
       propertyPath: m_LocalPosition.y
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 1e48b2dc9fcf0d9488ec618f078a2b1a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e48b2dc9fcf0d9488ec618f078a2b1a, type: 3}
   m_IsPrefabAsset: 0
@@ -36489,6 +37360,10 @@ Prefab:
     - target: {fileID: 100002, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
       propertyPath: m_Name
       value: pave (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
@@ -36586,6 +37461,10 @@ Prefab:
     - target: {fileID: 100002, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
       propertyPath: m_Name
       value: pave (124)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
@@ -36737,6 +37616,10 @@ Prefab:
     - target: {fileID: 100002, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
       propertyPath: m_Name
       value: pave (99)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
@@ -36973,6 +37856,10 @@ Prefab:
       propertyPath: m_Name
       value: pave (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
   m_IsPrefabAsset: 0
@@ -37047,6 +37934,10 @@ Prefab:
     - target: {fileID: 100002, guid: 1e48b2dc9fcf0d9488ec618f078a2b1a, type: 3}
       propertyPath: m_Name
       value: roads (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 1e48b2dc9fcf0d9488ec618f078a2b1a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e48b2dc9fcf0d9488ec618f078a2b1a, type: 3}
@@ -37173,6 +38064,10 @@ Prefab:
     - target: {fileID: 100002, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
       propertyPath: m_Name
       value: pave (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
@@ -37303,6 +38198,10 @@ Prefab:
       propertyPath: m_Name
       value: roads (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 1e48b2dc9fcf0d9488ec618f078a2b1a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e48b2dc9fcf0d9488ec618f078a2b1a, type: 3}
   m_IsPrefabAsset: 0
@@ -37360,6 +38259,10 @@ Prefab:
     - target: {fileID: 100002, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
       propertyPath: m_Name
       value: pave (109)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
@@ -37538,6 +38441,10 @@ Prefab:
       propertyPath: m_Name
       value: pave (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
   m_IsPrefabAsset: 0
@@ -37612,6 +38519,10 @@ Prefab:
     - target: {fileID: 100002, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
       propertyPath: m_Name
       value: pave (117)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
@@ -37710,6 +38621,10 @@ Prefab:
       propertyPath: m_Name
       value: pave (30)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
   m_IsPrefabAsset: 0
@@ -37767,6 +38682,10 @@ Prefab:
     - target: {fileID: 100002, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
       propertyPath: m_Name
       value: pave (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
@@ -38168,6 +39087,10 @@ Prefab:
       propertyPath: m_Name
       value: pave (71)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
   m_IsPrefabAsset: 0
@@ -38265,6 +39188,10 @@ Prefab:
       propertyPath: m_Name
       value: pave (108)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
   m_IsPrefabAsset: 0
@@ -38361,6 +39288,10 @@ Prefab:
     - target: {fileID: 100002, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
       propertyPath: m_Name
       value: pave (107)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
@@ -38479,6 +39410,14 @@ Prefab:
       propertyPath: m_TagString
       value: Bin
       objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 008cc0d25311e0346b11c21d8931caf2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 008cc0d25311e0346b11c21d8931caf2, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 008cc0d25311e0346b11c21d8931caf2, type: 3}
   m_IsPrefabAsset: 0
@@ -38570,6 +39509,10 @@ Prefab:
     - target: {fileID: 100002, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
       propertyPath: m_Name
       value: pave (136)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
@@ -38668,6 +39611,10 @@ Prefab:
       propertyPath: m_Name
       value: pave (27)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
   m_IsPrefabAsset: 0
@@ -38763,6 +39710,10 @@ Prefab:
     - target: {fileID: 400000, guid: 1e48b2dc9fcf0d9488ec618f078a2b1a, type: 3}
       propertyPath: m_LocalPosition.z
       value: 17.61
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 1e48b2dc9fcf0d9488ec618f078a2b1a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e48b2dc9fcf0d9488ec618f078a2b1a, type: 3}
@@ -38885,6 +39836,10 @@ Prefab:
       propertyPath: m_Name
       value: roads (47)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 1e48b2dc9fcf0d9488ec618f078a2b1a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e48b2dc9fcf0d9488ec618f078a2b1a, type: 3}
   m_IsPrefabAsset: 0
@@ -38976,6 +39931,10 @@ Prefab:
     - target: {fileID: 400000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
       propertyPath: m_LocalPosition.z
       value: 120
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
@@ -39271,6 +40230,10 @@ Prefab:
       propertyPath: m_Name
       value: pave (24)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
   m_IsPrefabAsset: 0
@@ -39333,7 +40296,7 @@ Prefab:
     - target: {fileID: 114760579369434030, guid: 9d29a6457d5836c4ba4b727f0ba91b1a,
         type: 2}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 135626387046834192, guid: 9d29a6457d5836c4ba4b727f0ba91b1a,
         type: 2}
@@ -39452,7 +40415,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &2093238337
 Transform:
@@ -39595,6 +40558,10 @@ Prefab:
       propertyPath: m_LocalPosition.z
       value: 17.61
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 1e48b2dc9fcf0d9488ec618f078a2b1a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e48b2dc9fcf0d9488ec618f078a2b1a, type: 3}
   m_IsPrefabAsset: 0
@@ -39652,6 +40619,10 @@ Prefab:
     - target: {fileID: 100002, guid: 1e48b2dc9fcf0d9488ec618f078a2b1a, type: 3}
       propertyPath: m_Name
       value: roads (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 1e48b2dc9fcf0d9488ec618f078a2b1a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e48b2dc9fcf0d9488ec618f078a2b1a, type: 3}
@@ -40166,6 +41137,10 @@ Prefab:
       propertyPath: m_LocalPosition.z
       value: 120
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
   m_IsPrefabAsset: 0
@@ -40262,6 +41237,10 @@ Prefab:
     - target: {fileID: 100002, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
       propertyPath: m_Name
       value: pave (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
@@ -40417,6 +41396,10 @@ Prefab:
     - target: {fileID: 100002, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
       propertyPath: m_Name
       value: pave (104)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a0949199303b74c93e54fac0c8a52f, type: 3}

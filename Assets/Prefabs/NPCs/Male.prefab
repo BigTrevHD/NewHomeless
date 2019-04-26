@@ -202,6 +202,7 @@ GameObject:
   - component: {fileID: 95465904391734694}
   - component: {fileID: 114343517967989896}
   - component: {fileID: 114760579369434030}
+  - component: {fileID: 195254724020846874}
   m_Layer: 0
   m_Name: Male
   m_TagString: NPC
@@ -325,6 +326,7 @@ GameObject:
   - component: {fileID: 137482138822851346}
   - component: {fileID: 135626387046834192}
   - component: {fileID: 136735574820054532}
+  - component: {fileID: 195835167612692744}
   m_Layer: 0
   m_Name: Male
   m_TagString: Untagged
@@ -780,7 +782,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1481356943623248}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 90.44415, y: 0.199, z: 12.13}
+  m_LocalPosition: {x: 104.27, y: 0.158, z: 7.25}
   m_LocalScale: {x: 29.622684, y: 29.622684, z: 29.622684}
   m_Children:
   - {fileID: 4459655410741264}
@@ -1014,3 +1016,45 @@ SkinnedMeshRenderer:
     m_Center: {x: 0.0004778849, y: 0.0063858684, z: 0.0032269252}
     m_Extent: {x: 0.020303454, y: 0.03937582, z: 0.011536017}
   m_DirtyAABB: 0
+--- !u!195 &195254724020846874
+NavMeshAgent:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1481356943623248}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 0.02
+  m_Speed: 3.5
+  m_Acceleration: 8
+  avoidancePriority: 50
+  m_AngularSpeed: 120
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 0.08
+  m_BaseOffset: 0
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
+--- !u!195 &195835167612692744
+NavMeshAgent:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1756717879356922}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 0.02
+  m_Speed: 3.5
+  m_Acceleration: 8
+  avoidancePriority: 50
+  m_AngularSpeed: 120
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 0.08
+  m_BaseOffset: 0
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
