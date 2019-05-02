@@ -35,6 +35,18 @@ public class ThirdPersonCharacterController : MonoBehaviour {
                 anim.SetFloat("speed", 0);
                 moveDir = new Vector3(0, 0, 0);
             }
+            if (Input.GetKey(KeyCode.S))
+            {
+                anim.SetFloat("speed", 1);
+                moveDir = new Vector3(0, 0, -1);
+                moveDir *= speed;
+                moveDir = transform.TransformDirection(moveDir);
+            }
+            if (Input.GetKeyUp(KeyCode.S))
+            {
+                anim.SetFloat("speed", 0);
+                moveDir = new Vector3(0, 0, 0);
+            }
         }
         rot += Input.GetAxis("Horizontal") * rotSpeed * Time.deltaTime;
         transform.eulerAngles = new Vector3(0, rot, 0);
