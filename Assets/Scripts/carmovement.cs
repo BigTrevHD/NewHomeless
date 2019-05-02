@@ -19,9 +19,11 @@ public class carmovement : MonoBehaviour {
 
     private void OnCollisionEnter(Collision collision)
     {
-       if (collision.gameObject.tag == "Car")
-        {
-            transform.Rotate(0, 90, 0);
+       if (collision.gameObject.tag.Equals("Car")){
+
+        
+            Destroy(collision.gameObject);
+            
         }
     }
 
