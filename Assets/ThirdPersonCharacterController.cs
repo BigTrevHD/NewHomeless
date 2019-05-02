@@ -23,26 +23,26 @@ public class ThirdPersonCharacterController : MonoBehaviour {
     {
         if(controller.isGrounded)
         {
-            if(Input.GetKey(KeyCode.W))
+            if (Input.GetKey(KeyCode.W) || (Input.GetKey(KeyCode.UpArrow)))
             {
                 anim.SetFloat("speed", 1);
                 moveDir = new Vector3(0, 0, 1);
                 moveDir *= speed;
                 moveDir = transform.TransformDirection(moveDir);
             }
-            if(Input.GetKeyUp(KeyCode.W))
+            if(Input.GetKeyUp(KeyCode.W) || (Input.GetKeyUp(KeyCode.UpArrow)))
             {
                 anim.SetFloat("speed", 0);
                 moveDir = new Vector3(0, 0, 0);
             }
-            if (Input.GetKey(KeyCode.S))
+            if (Input.GetKey(KeyCode.S) || (Input.GetKey(KeyCode.DownArrow)))
             {
                 anim.SetFloat("speed", 1);
                 moveDir = new Vector3(0, 0, -1);
                 moveDir *= speed;
                 moveDir = transform.TransformDirection(moveDir);
             }
-            if (Input.GetKeyUp(KeyCode.S))
+            if (Input.GetKeyUp(KeyCode.S) || (Input.GetKeyUp(KeyCode.DownArrow)))
             {
                 anim.SetFloat("speed", 0);
                 moveDir = new Vector3(0, 0, 0);
