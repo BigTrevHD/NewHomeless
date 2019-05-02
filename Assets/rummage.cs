@@ -13,7 +13,7 @@ public class rummage : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-        
+        amount = Random.Range(0f, 5f);
     }
 
     void Update()
@@ -37,8 +37,8 @@ public class rummage : MonoBehaviour
             
             if (Input.GetKeyDown(KeyCode.E))
                  {
-                amount = Random.Range(0f, 2f);
-                chance = Random.Range(61, 100);
+                
+                chance = Random.Range(0, 100);
                 if (chance > 60)
                     {
                         gm.cash += amount;
