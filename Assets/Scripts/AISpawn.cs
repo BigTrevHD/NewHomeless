@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class AISpawn : MonoBehaviour {
+    public Transform spawner;
+
     public GameObject SpawnThisAI;
     public GameObject AIType1;
     public GameObject AIType2;
@@ -35,6 +37,6 @@ public class AISpawn : MonoBehaviour {
         {
             SpawnThisAI = AIType3;
         }
-        GameObject AI = Instantiate(SpawnThisAI, new Vector3(63.01f, 0, -7.360314f), Quaternion.identity) as GameObject;
+        GameObject AI = Instantiate(SpawnThisAI, new Vector3(spawner.position.x, spawner.position.y, spawner.position.z), Quaternion.identity) as GameObject;
     }
 }

@@ -353,6 +353,8 @@ GameObject:
   - component: {fileID: 4352026658303934}
   - component: {fileID: 95752181575593272}
   - component: {fileID: 114241614014348068}
+  - component: {fileID: 135842861509038834}
+  - component: {fileID: 114506840831372778}
   m_Layer: 0
   m_Name: Female
   m_TagString: NPC
@@ -551,7 +553,6 @@ GameObject:
   - component: {fileID: 137575460811403804}
   - component: {fileID: 135534383123019308}
   - component: {fileID: 136215644940383700}
-  - component: {fileID: 114507332943079576}
   m_Layer: 0
   m_Name: Female
   m_TagString: Untagged
@@ -1139,12 +1140,12 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
---- !u!114 &114507332943079576
+--- !u!114 &114506840831372778
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1980071332809890}
+  m_GameObject: {fileID: 1594055321529790}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 97d66ada2024be249a5a54621865f997, type: 3}
@@ -1158,6 +1159,18 @@ SphereCollider:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1980071332809890}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.05
+  m_Center: {x: 0, y: 0.05, z: 0}
+--- !u!135 &135842861509038834
+SphereCollider:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1594055321529790}
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_Enabled: 1
