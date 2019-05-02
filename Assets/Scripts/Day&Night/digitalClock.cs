@@ -5,10 +5,11 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class digitalClock : MonoBehaviour {
-    private bool nightTime;
+    public bool nightTime;
     public gameMaster gm;
 
     public Text clockText;
+
 
     
     public int hour = 10;
@@ -85,4 +86,7 @@ public class digitalClock : MonoBehaviour {
         }
         
     }
+
+    
+
 }
