@@ -200,9 +200,10 @@ GameObject:
   m_Component:
   - component: {fileID: 4913643490589430}
   - component: {fileID: 95465904391734694}
-  - component: {fileID: 114343517967989896}
   - component: {fileID: 114760579369434030}
   - component: {fileID: 195254724020846874}
+  - component: {fileID: 135612389586149788}
+  - component: {fileID: 114999712608910970}
   m_Layer: 0
   m_Name: Male
   m_TagString: NPC
@@ -324,7 +325,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4101307178589960}
   - component: {fileID: 137482138822851346}
-  - component: {fileID: 135626387046834192}
   - component: {fileID: 136735574820054532}
   - component: {fileID: 195835167612692744}
   m_Layer: 0
@@ -782,7 +782,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1481356943623248}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 104.27, y: 0.158, z: 7.25}
+  m_LocalPosition: {x: 90.44415, y: 0.199, z: 10.97}
   m_LocalScale: {x: 29.622684, y: 29.622684, z: 29.622684}
   m_Children:
   - {fileID: 4459655410741264}
@@ -892,19 +892,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &114343517967989896
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1481356943623248}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 97d66ada2024be249a5a54621865f997, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  giveChance: 0
-  giveAmount: 0
 --- !u!114 &114760579369434030
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -922,18 +909,31 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
---- !u!135 &135626387046834192
+--- !u!114 &114999712608910970
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1481356943623248}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97d66ada2024be249a5a54621865f997, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  giveChance: 0
+  giveAmount: 0
+--- !u!135 &135612389586149788
 SphereCollider:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1756717879356922}
+  m_GameObject: {fileID: 1481356943623248}
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.05
-  m_Center: {x: 0, y: 0.05, z: 0}
+  m_Radius: 0.5
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!136 &136735574820054532
 CapsuleCollider:
   m_ObjectHideFlags: 1
