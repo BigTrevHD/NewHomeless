@@ -43,6 +43,7 @@ public class EnterBuilding : MonoBehaviour {
         if (immortal.currentScene == 0)
         {
             immortal.cam.transform.position = new Vector3(immortal.mainCam.transform.position.x, immortal.mainCam.transform.position.y, immortal.mainCam.transform.position.z);
+            immortal.cam.transform.rotation = immortal.mainCam.transform.rotation;
             immortal.cam.fieldOfView = 40;
             //  Debug.Log("Position: " + PlayerPrefs.GetFloat("X") + PlayerPrefs.GetFloat("Y") + PlayerPrefs.GetFloat("Z"));
         }
