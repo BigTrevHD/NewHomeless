@@ -128,7 +128,7 @@ Project seems on course to be fine. You have a solid base to develop from and I 
 
 ## Sprint 5 (2/5/19)
 
-- Central mechanics are still not working (bin rummaging, cafes broken, begging is unclear)
+- Central mechanics are still not working (bin rummaging, cafes broken, begging is unclear, notebook isn't working at all)
 - Game has not been playtested by anyone. 
   - You haven't event playtested the game yourselves all the way through. No-one has attempted to complete the game, you therefore don't know how long that would take, whether it's possible, or how it feels to play the game.
 - The cars, whilst amusing, rather damage the feel you're going for (although I can see this could potentially be a relatively minor fix).
