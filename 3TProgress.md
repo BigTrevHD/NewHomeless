@@ -12,6 +12,7 @@ Quick summary:
 | Halfway Crit | 5/10 |
 | Sprint 3     | 1/4  |
 | Sprint 4     | 1/4  |
+| Sprint 5     | 1/4  |
 
 ### Presentation
 
@@ -124,3 +125,15 @@ Project seems on course to be fine. You have a solid base to develop from and I 
 - Game is still broken. You cannot to continue to blame git problems for not having something to show. Git and version control is an essential part of your group work and you need to get to grips with it.
 - I still haven't seen a playable game.
 - **1/4**
+
+## Sprint 5 (2/5/19)
+
+- Central mechanics are still not working (bin rummaging, cafes broken, begging is unclear)
+- Game has not been playtested by anyone. 
+  - You haven't event playtested the game yourselves all the way through. No-one has attempted to complete the game, you therefore don't know how long that would take, whether it's possible, or how it feels to play the game.
+- The cars, whilst amusing, rather damage the feel you're going for (although I can see this could potentially be a relatively minor fix).
+- World still feels unpopulated with very little happening.
+- No sound at all.
+- 11 weeks into production, and 1 week out from the deadline, this is not satisfactory progress. There are points from **5 weeks ago** which have still not been addressed.
+- **1/4**
+
