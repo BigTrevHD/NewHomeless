@@ -17,13 +17,14 @@ public class carmovement : MonoBehaviour {
        // transform.Rotate(0, 90, 0);
 	}
 
-    private void OnCollisionEnter(Collision collision)
+    void OnTriggerEnter(Collider other)
     {
-       if (collision.gameObject.tag == "Car")
+        if(other.CompareTag("rotator"))
         {
-            transform.Rotate(0, 90, 0);
+            transform.Rotate(0f, 90f, 0f);
         }
     }
+    
 
 
 }

@@ -12,6 +12,7 @@ TagManager:
   - Destination
   - Bin
   - Car
+  - rotator
   layers:
   - Default
   - TransparentFX

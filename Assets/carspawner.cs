@@ -11,11 +11,18 @@ public class carspawner : MonoBehaviour {
     public float spawnRateMin = 2;
     public float spawnRateMax = 10;
 
+    public float spawnX;
+    public float spawnY;
+    public float spawnZ;
+
+    public float angleY;
+
     private int chooser;
 
 	// Use this for initialization
 	void Start () {
         InvokeRepeating("SpawnAI", 1.0f, Random.Range(spawnRateMin, spawnRateMax));
+
 
 	}
 	
@@ -31,6 +38,6 @@ public class carspawner : MonoBehaviour {
         {
             SpawnThisAI = AIType2;
         }
-        GameObject AI = Instantiate(SpawnThisAI, new Vector3(102f, -0.1f, 38.41f), Quaternion.identity) as GameObject;
+        GameObject AI = Instantiate(SpawnThisAI, new Vector3(spawnX, spawnY, spawnZ), transform.rotation) as GameObject;
 	}
 }
