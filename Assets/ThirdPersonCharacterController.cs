@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class ThirdPersonCharacterController : MonoBehaviour {
     float speed = 4;
@@ -53,5 +54,18 @@ public class ThirdPersonCharacterController : MonoBehaviour {
 
         moveDir.y -= gravity * Time.deltaTime;
         controller.Move(moveDir * Time.deltaTime);
+    }
+
+    public void Die ()
+    {
+        anim.SetInteger("health", 0);
+        StartCoroutine("Restart");
+    }
+    IEnumerator Restart()
+    {
+
+        yield return new WaitForSeconds(6);
+        SceneManager.LoadScene(0);
+
     }
 }

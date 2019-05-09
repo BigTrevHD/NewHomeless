@@ -7,6 +7,7 @@ using UnityEngine.SceneManagement;
 public class playerStats : MonoBehaviour
 {
     public gameMaster gm;
+    public ThirdPersonCharacterController thirdPerson;
 
     public float Warmth;
     public float warmthOverTimer;
@@ -38,20 +39,13 @@ public class playerStats : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Warmth == 0)
+        if (Warmth == 0 || Thirst == 0 || Hunger == 0)
         {
-            SceneManager.LoadScene(0);
+            thirdPerson.Die();
+           // SceneManager.LoadScene(0);
         }
 
-        if (Thirst == 0)
-        {
-            SceneManager.LoadScene(0);
-        }
-
-        if (Hunger == 0)
-        {
-            SceneManager.LoadScene(0);
-        }
+        
 
         CalculateValues();
 

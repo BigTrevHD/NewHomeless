@@ -11,6 +11,9 @@ public class shelter : MonoBehaviour {
     private float currentTime;
     private bool queueing = false;
 
+    private int successNum;
+    private int playerNum;
+
     public Text countdown;
     public Text shelterInfo;
     
@@ -35,18 +38,20 @@ public class shelter : MonoBehaviour {
         switch (clock.hour)
         {
             case 20:
-                startTime = 120;
+                startTime = Random.Range(60, 120);
                 break;
             case 21:
-                startTime = 180;
+                startTime = Random.Range(120, 180);
                 break;
             case 22:
-                startTime = 240;
+                startTime = Random.Range(180, 240);
                 break;
             default:
-                print("Incorrect intelligence level.");
+                print("");
                 break;
         }
+
+
     }
 
     public void Queue()
@@ -65,7 +70,9 @@ public class shelter : MonoBehaviour {
         if (currentTime <= 0)
         {
             currentTime = 0;
+            
         }
         
     }
+
 }
