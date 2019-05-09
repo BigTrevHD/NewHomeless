@@ -21,7 +21,7 @@ public class carmovement : MonoBehaviour {
     {
         if(other.CompareTag("rotator"))
         {
-            transform.Rotate(0f, 90f, 0f);
+            Destroy(gameObject);
         }
     }
     
