@@ -23,6 +23,8 @@ public class playerStats : MonoBehaviour
     public Slider ThirstBar;
     public Slider HungerBar;
 
+    public Text howDied;
+
     public float minAmount = 50f;
 
 
