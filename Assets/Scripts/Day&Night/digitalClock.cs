@@ -74,8 +74,13 @@ public class digitalClock : MonoBehaviour {
         //Kicks the player out of any establishment at x time
         if(hour == 23)
         {
-            gm.currentScene = 0;
+           if(gm.currentScene == 1 || gm.currentScene == 3)
+            {
+                gm.currentScene = 0;
+            }
+            
         }
+      
     }
 
     void UpdateClock()
