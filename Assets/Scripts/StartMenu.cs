@@ -49,6 +49,10 @@ public class StartMenu : MonoBehaviour
                         currText = result.gameObject;
                     
                 }
+                    else
+                {
+                    currText = null;
+                }
                 }
             }
         if (Input.GetKey(KeyCode.Mouse0))
@@ -62,6 +66,10 @@ public class StartMenu : MonoBehaviour
                 helpMenu.gameObject.SetActive(true);
             }
         }
+    }
+   public void CloseMenu()
+    {
+        helpMenu.gameObject.SetActive(false);
     }
 
 }
