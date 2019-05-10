@@ -27,12 +27,12 @@ public class shelter : MonoBehaviour {
 	void Update ()
     {
         countdown.text = (currentTime.ToString("00"));
-        if(queueing)
+        //if(queueing)
+        //{
+        //    shelterInfo.text = "You are now in the Queue.\n"  +currentTime;
+        //} else
         {
-            shelterInfo.text = "You are now in the Queue.\n"  +currentTime;
-        } else
-        {
-            shelterInfo.text = "The current wait time is " +startTime +" and a place is not guaranteed";
+            shelterInfo.text = "Due to the rise in homelessness, the shelter is currently full. We are waiting for government expansion. Sorry for the inconvience caused.";
         }
         
         switch (clock.hour)
