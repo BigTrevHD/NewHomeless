@@ -13,19 +13,13 @@ public class ThirdPersonCharacterController : MonoBehaviour {
 
     CharacterController controller;
     Animator anim;
-
-    public AudioSource _as;
-    public AudioClip[] audioClipArray;
-
-     void Awake()
-    {
-        //_as = Get
-    }
+      
 
     void Start()
     {
         controller = GetComponent<CharacterController>();
         anim = GetComponent<Animator>();
+        
     }
 
     void Update()

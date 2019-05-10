@@ -88,12 +88,12 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 114529761473274924}
         m_MethodName: UseItem
-        m_Mode: 1
+        m_Mode: 4
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
-          m_FloatArgument: 0
+          m_FloatArgument: 2
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
@@ -168,6 +168,8 @@ MonoBehaviour:
   addThirst: 20
   addWarmth: 10
   stats: {fileID: 0}
+  inv: {fileID: 0}
+  sounds: {fileID: 0}
 --- !u!222 &222599052085729030
 CanvasRenderer:
   m_ObjectHideFlags: 1

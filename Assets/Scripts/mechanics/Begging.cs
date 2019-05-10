@@ -11,12 +11,15 @@ public class Begging : MonoBehaviour {
     private GiveChance chance;
     public gameMaster gm;
 
-    
+    public sounds sounds;
 
-	// Use this for initialization
-	void Start () {
+
+
+    // Use this for initialization
+    void Start () {
         selectedNum = Random.Range(50, 100);
-        
+        sounds = GameObject.FindGameObjectWithTag("Player").GetComponent<sounds>();
+
 
 
         //GameObject.FindGameObjectsWithTag("NPC");
@@ -35,9 +38,11 @@ public class Begging : MonoBehaviour {
         if(other.CompareTag("NPC"))
         {            
             if(Input.GetKeyDown(KeyCode.E))
-            {
-                
-                if(selectedNum > chance.giveChance && selectedNum < 100)
+            {                             
+             sounds._as.clip = sounds.audioClipArray[0];
+                sounds.PlaySound();
+
+                if (selectedNum > chance.giveChance && selectedNum < 100)
                 {
                     gm.cash += chance.giveAmount;
                     chance.giveChance = 0;

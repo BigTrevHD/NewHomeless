@@ -2150,7 +2150,7 @@ AudioSource:
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
-  Priority: 60
+  Priority: 214
   DopplerLevel: 1
   MinDistance: 1
   MaxDistance: 500
@@ -39042,6 +39042,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gm: {fileID: 57292491}
+  sounds: {fileID: 0}
 --- !u!4 &1500089195 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400002, guid: 5eaa9f27d1400a949b6e0e4b844f9392,
@@ -39124,7 +39125,7 @@ AudioSource:
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
-  Priority: 128
+  Priority: 34
   DopplerLevel: 1
   MinDistance: 1
   MaxDistance: 500
@@ -39213,8 +39214,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40398bd658de50847be94badf4d075f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _as: {fileID: 0}
-  audioClipArray: []
 --- !u!114 &1500089202
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -39243,6 +39242,24 @@ CapsuleCollider:
   m_Height: 1.3
   m_Direction: 1
   m_Center: {x: 0, y: 0.58, z: 0}
+--- !u!114 &1500089205
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1500089193}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c88ce8d82905e7742b0a7af74d73a46f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _as: {fileID: 0}
+  audioClipArray:
+  - {fileID: 8300000, guid: 8f77fe7ec93469b449e930fc20694562, type: 3}
+  - {fileID: 8300000, guid: dc4261eee82bde44f9b7e32c0eb56e6e, type: 3}
+  - {fileID: 8300000, guid: 9c5c41113027aa5448b7e1f0bbffd698, type: 3}
+  - {fileID: 0}
+  - {fileID: 0}
 --- !u!1 &1502332459 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100002, guid: c054a377a4dcce247b497cec40c9d884,
@@ -40151,7 +40168,6 @@ GameObject:
   - component: {fileID: 1551653807}
   - component: {fileID: 1551653806}
   - component: {fileID: 1551653805}
-  - component: {fileID: 1551653808}
   m_Layer: 5
   m_Name: Button_coffee
   m_TagString: Untagged
@@ -40277,17 +40293,6 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1551653803}
   m_CullTransparentMesh: 0
---- !u!114 &1551653808
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1551653803}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 74035552c4be9c649946ba467aa94101, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &1552399451
 Prefab:
   m_ObjectHideFlags: 0
