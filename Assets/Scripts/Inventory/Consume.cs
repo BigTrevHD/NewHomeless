@@ -9,16 +9,18 @@ public class Consume : MonoBehaviour {
 
     public playerStats stats;
     public Inventory inv;
+    public sounds sounds;
 
     // Use this for initialization
     void Start () {
         stats = GameObject.FindGameObjectWithTag("gm").GetComponent<playerStats>();
         inv = GameObject.FindGameObjectWithTag("gm").GetComponent<Inventory>();
+        sounds = GameObject.FindGameObjectWithTag("Player").GetComponent<sounds>();
 
     }
 	
 	// Update is called once per frame
-	public void UseItem ()
+	public void UseItem (float soundNum)
     {
         Destroy(gameObject);
         inv.EmptySlot();
@@ -26,6 +28,19 @@ public class Consume : MonoBehaviour {
         stats.Thirst += addThirst;
         stats.Warmth += addWarmth;
 
-        
+       
+        if (soundNum == 2)
+        {
+            sounds._as.clip = sounds.audioClipArray[2];
+        }
+        if (soundNum == 3)
+        {
+            sounds._as.clip = sounds.audioClipArray[3];
+        }
+        if (soundNum == 4)
+        {
+            sounds._as.clip = sounds.audioClipArray[4];
+        }
+        sounds.PlaySound();
     }
 }
