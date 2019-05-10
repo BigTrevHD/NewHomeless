@@ -38,9 +38,11 @@ public class Begging : MonoBehaviour {
         if(other.CompareTag("NPC"))
         {            
             if(Input.GetKeyDown(KeyCode.E))
-            {                             
-             sounds._as.clip = sounds.audioClipArray[0];
+            {
+                sounds._as.clip = sounds.audioClipArray[0];
                 sounds.PlaySound();
+
+
 
                 if (selectedNum > chance.giveChance && selectedNum < 100)
                 {

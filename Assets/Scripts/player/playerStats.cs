@@ -23,6 +23,7 @@ public class playerStats : MonoBehaviour
     public Slider ThirstBar;
     public Slider HungerBar;
 
+    private bool dead;
     public Text howDied;
 
     public float minAmount = 50f;
@@ -41,13 +42,19 @@ public class playerStats : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Warmth == 0 || Thirst == 0 || Hunger == 0)
+        if(!dead)
         {
-            thirdPerson.Die();
-           // SceneManager.LoadScene(0);
+            if (Warmth == 0 || Thirst == 0 || Hunger == 0)
+            {
+                dead = true;
+                thirdPerson.Die();
+                // SceneManager.LoadScene(0);
+            }
         }
-
         
+        
+
+
 
         CalculateValues();
 
