@@ -1494,7 +1494,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c054a377a4dcce247b497cec40c9d884, type: 3}
       propertyPath: m_RootOrder
-      value: 41
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c054a377a4dcce247b497cec40c9d884, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
@@ -2577,6 +2577,14 @@ Prefab:
       propertyPath: m_LocalEulerAnglesHint.y
       value: -45.307003
       objectReference: {fileID: 0}
+    - target: {fileID: 2300002, guid: b14d8c302663b48c0ba38a0be6e1765a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: b68f5f2161b164d848109d74969d1327, type: 2}
+    - target: {fileID: 2300002, guid: b14d8c302663b48c0ba38a0be6e1765a, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: b68f5f2161b164d848109d74969d1327, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b14d8c302663b48c0ba38a0be6e1765a, type: 3}
   m_IsPrefabAsset: 0
@@ -4881,7 +4889,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c054a377a4dcce247b497cec40c9d884, type: 3}
       propertyPath: m_RootOrder
-      value: 49
+      value: 48
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c054a377a4dcce247b497cec40c9d884, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
@@ -8178,6 +8186,14 @@ Prefab:
       propertyPath: m_LocalEulerAnglesHint.y
       value: 67.130005
       objectReference: {fileID: 0}
+    - target: {fileID: 2300002, guid: d9c1ae3b8cdd64725a2b3e01dc735436, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: b68f5f2161b164d848109d74969d1327, type: 2}
+    - target: {fileID: 2300002, guid: d9c1ae3b8cdd64725a2b3e01dc735436, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: b68f5f2161b164d848109d74969d1327, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d9c1ae3b8cdd64725a2b3e01dc735436, type: 3}
   m_IsPrefabAsset: 0
@@ -10396,7 +10412,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c054a377a4dcce247b497cec40c9d884, type: 3}
       propertyPath: m_RootOrder
-      value: 37
+      value: 36
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c054a377a4dcce247b497cec40c9d884, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
@@ -12194,7 +12210,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c054a377a4dcce247b497cec40c9d884, type: 3}
       propertyPath: m_RootOrder
-      value: 48
+      value: 47
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: c054a377a4dcce247b497cec40c9d884, type: 3}
       propertyPath: m_Name
@@ -14060,7 +14076,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c054a377a4dcce247b497cec40c9d884, type: 3}
       propertyPath: m_RootOrder
-      value: 45
+      value: 44
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: c054a377a4dcce247b497cec40c9d884, type: 3}
       propertyPath: m_Name
@@ -15790,6 +15806,14 @@ Prefab:
       propertyPath: m_Name
       value: enchantedforest_tree_4 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 2300002, guid: d9c1ae3b8cdd64725a2b3e01dc735436, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: b68f5f2161b164d848109d74969d1327, type: 2}
+    - target: {fileID: 2300002, guid: d9c1ae3b8cdd64725a2b3e01dc735436, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: b68f5f2161b164d848109d74969d1327, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d9c1ae3b8cdd64725a2b3e01dc735436, type: 3}
   m_IsPrefabAsset: 0
@@ -19220,7 +19244,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c054a377a4dcce247b497cec40c9d884, type: 3}
       propertyPath: m_RootOrder
-      value: 52
+      value: 51
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: c054a377a4dcce247b497cec40c9d884, type: 3}
       propertyPath: m_Name
@@ -19530,7 +19554,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c054a377a4dcce247b497cec40c9d884, type: 3}
       propertyPath: m_RootOrder
-      value: 51
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: c054a377a4dcce247b497cec40c9d884, type: 3}
       propertyPath: m_Name
@@ -21954,6 +21978,14 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 0.94
       objectReference: {fileID: 0}
+    - target: {fileID: 2300002, guid: d9c1ae3b8cdd64725a2b3e01dc735436, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: b68f5f2161b164d848109d74969d1327, type: 2}
+    - target: {fileID: 2300002, guid: d9c1ae3b8cdd64725a2b3e01dc735436, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: b68f5f2161b164d848109d74969d1327, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d9c1ae3b8cdd64725a2b3e01dc735436, type: 3}
   m_IsPrefabAsset: 0
@@ -27167,6 +27199,14 @@ Prefab:
       propertyPath: m_LocalEulerAnglesHint.y
       value: 72.597
       objectReference: {fileID: 0}
+    - target: {fileID: 2300002, guid: d9c1ae3b8cdd64725a2b3e01dc735436, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: b68f5f2161b164d848109d74969d1327, type: 2}
+    - target: {fileID: 2300002, guid: d9c1ae3b8cdd64725a2b3e01dc735436, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: b68f5f2161b164d848109d74969d1327, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d9c1ae3b8cdd64725a2b3e01dc735436, type: 3}
   m_IsPrefabAsset: 0
@@ -30893,7 +30933,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c054a377a4dcce247b497cec40c9d884, type: 3}
       propertyPath: m_RootOrder
-      value: 38
+      value: 37
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c054a377a4dcce247b497cec40c9d884, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
@@ -32659,7 +32699,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c054a377a4dcce247b497cec40c9d884, type: 3}
       propertyPath: m_RootOrder
-      value: 39
+      value: 38
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c054a377a4dcce247b497cec40c9d884, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
@@ -33830,7 +33870,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c054a377a4dcce247b497cec40c9d884, type: 3}
       propertyPath: m_RootOrder
-      value: 50
+      value: 49
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c054a377a4dcce247b497cec40c9d884, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
@@ -33942,7 +33982,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c054a377a4dcce247b497cec40c9d884, type: 3}
       propertyPath: m_RootOrder
-      value: 42
+      value: 41
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c054a377a4dcce247b497cec40c9d884, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
@@ -34979,7 +35019,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c054a377a4dcce247b497cec40c9d884, type: 3}
       propertyPath: m_RootOrder
-      value: 47
+      value: 46
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: c054a377a4dcce247b497cec40c9d884, type: 3}
       propertyPath: m_Name
@@ -37071,7 +37111,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c054a377a4dcce247b497cec40c9d884, type: 3}
       propertyPath: m_RootOrder
-      value: 40
+      value: 39
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c054a377a4dcce247b497cec40c9d884, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
@@ -37529,6 +37569,14 @@ Prefab:
       propertyPath: m_Name
       value: enchantedforest_tree_4 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 2300002, guid: d9c1ae3b8cdd64725a2b3e01dc735436, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: b68f5f2161b164d848109d74969d1327, type: 2}
+    - target: {fileID: 2300002, guid: d9c1ae3b8cdd64725a2b3e01dc735436, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: b68f5f2161b164d848109d74969d1327, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d9c1ae3b8cdd64725a2b3e01dc735436, type: 3}
   m_IsPrefabAsset: 0
@@ -39601,6 +39649,14 @@ Prefab:
       propertyPath: m_Name
       value: enchantedforest_tree_5 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 2300002, guid: b14d8c302663b48c0ba38a0be6e1765a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: b68f5f2161b164d848109d74969d1327, type: 2}
+    - target: {fileID: 2300002, guid: b14d8c302663b48c0ba38a0be6e1765a, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: b68f5f2161b164d848109d74969d1327, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b14d8c302663b48c0ba38a0be6e1765a, type: 3}
   m_IsPrefabAsset: 0
@@ -44374,7 +44430,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c054a377a4dcce247b497cec40c9d884, type: 3}
       propertyPath: m_RootOrder
-      value: 44
+      value: 43
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c054a377a4dcce247b497cec40c9d884, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
@@ -45351,7 +45407,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c054a377a4dcce247b497cec40c9d884, type: 3}
       propertyPath: m_RootOrder
-      value: 46
+      value: 45
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: c054a377a4dcce247b497cec40c9d884, type: 3}
       propertyPath: m_Name
@@ -46047,6 +46103,14 @@ Prefab:
       propertyPath: m_Name
       value: enchantedforest_tree_5 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 2300002, guid: b14d8c302663b48c0ba38a0be6e1765a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: b68f5f2161b164d848109d74969d1327, type: 2}
+    - target: {fileID: 2300002, guid: b14d8c302663b48c0ba38a0be6e1765a, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: b68f5f2161b164d848109d74969d1327, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b14d8c302663b48c0ba38a0be6e1765a, type: 3}
   m_IsPrefabAsset: 0
@@ -47380,7 +47444,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c054a377a4dcce247b497cec40c9d884, type: 3}
       propertyPath: m_RootOrder
-      value: 43
+      value: 42
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c054a377a4dcce247b497cec40c9d884, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
@@ -49959,6 +50023,14 @@ Prefab:
       propertyPath: m_Name
       value: enchantedforest_tree_5 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 2300002, guid: b14d8c302663b48c0ba38a0be6e1765a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: b68f5f2161b164d848109d74969d1327, type: 2}
+    - target: {fileID: 2300002, guid: b14d8c302663b48c0ba38a0be6e1765a, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: b68f5f2161b164d848109d74969d1327, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b14d8c302663b48c0ba38a0be6e1765a, type: 3}
   m_IsPrefabAsset: 0
@@ -50311,6 +50383,14 @@ Prefab:
       propertyPath: m_Name
       value: enchantedforest_tree_5 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 2300002, guid: b14d8c302663b48c0ba38a0be6e1765a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: b68f5f2161b164d848109d74969d1327, type: 2}
+    - target: {fileID: 2300002, guid: b14d8c302663b48c0ba38a0be6e1765a, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: b68f5f2161b164d848109d74969d1327, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b14d8c302663b48c0ba38a0be6e1765a, type: 3}
   m_IsPrefabAsset: 0
