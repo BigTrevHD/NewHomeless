@@ -28,19 +28,15 @@ public class Consume : MonoBehaviour {
         stats.Thirst += addThirst;
         stats.Warmth += addWarmth;
 
-       
+        if (soundNum == 1)
+        {
+            sounds._as.clip = sounds.audioClipArray[1];
+        }
         if (soundNum == 2)
         {
             sounds._as.clip = sounds.audioClipArray[2];
         }
-        if (soundNum == 3)
-        {
-            sounds._as.clip = sounds.audioClipArray[3];
-        }
-        if (soundNum == 4)
-        {
-            sounds._as.clip = sounds.audioClipArray[4];
-        }
+       
         sounds.PlaySound();
     }
 }

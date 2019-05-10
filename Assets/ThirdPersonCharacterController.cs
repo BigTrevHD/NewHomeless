@@ -13,13 +13,16 @@ public class ThirdPersonCharacterController : MonoBehaviour {
 
     CharacterController controller;
     Animator anim;
+
+    public sounds sounds; 
       
 
     void Start()
     {
         controller = GetComponent<CharacterController>();
         anim = GetComponent<Animator>();
-        
+        sounds = GameObject.FindGameObjectWithTag("Player").GetComponent<sounds>();
+
     }
 
     void Update()
@@ -60,6 +63,10 @@ public class ThirdPersonCharacterController : MonoBehaviour {
 
     public void Die ()
     {
+        sounds._as.clip = sounds.audioClipArray[4];
+        
+        sounds.PlaySound();
+        StartCoroutine("DieSound");
         anim.SetInteger("health", 0);
 
         StartCoroutine("Restart");

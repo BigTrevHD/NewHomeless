@@ -39113,6 +39113,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40398bd658de50847be94badf4d075f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sounds: {fileID: 0}
 --- !u!114 &1500089202
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -39158,7 +39159,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: dc4261eee82bde44f9b7e32c0eb56e6e, type: 3}
   - {fileID: 8300000, guid: 9c5c41113027aa5448b7e1f0bbffd698, type: 3}
   - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 8300000, guid: 9b4e55fdd5a54284987edacfa5702308, type: 3}
 --- !u!1 &1502332459 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100002, guid: c054a377a4dcce247b497cec40c9d884,
